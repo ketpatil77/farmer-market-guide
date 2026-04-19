@@ -1,0 +1,3644 @@
+[
+  {
+    "id": "c0a101e4-9f74-4c6c-b6a9-7de1ac481260",
+    "timestamp": "2026-03-05T14:10:01.072981",
+    "action": "USER_CREATED",
+    "entity_type": "user",
+    "entity_id": "farmer-1",
+    "user_id": "farmer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "farmer-1",
+      "name": "Farmer 1",
+      "role": "farmer",
+      "city": "Pune",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "14a92772-1069-4bd0-82e5-b8fd811aa632",
+    "timestamp": "2026-03-05T14:10:01.077620",
+    "action": "USER_CREATED",
+    "entity_type": "user",
+    "entity_id": "farmer-2",
+    "user_id": "farmer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "farmer-2",
+      "name": "Farmer 2",
+      "role": "farmer",
+      "city": "Nashik",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "fb8174df-fe23-45e8-830d-b962826a8bfa",
+    "timestamp": "2026-03-05T14:10:01.082425",
+    "action": "USER_CREATED",
+    "entity_type": "user",
+    "entity_id": "farmer-3",
+    "user_id": "farmer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "farmer-3",
+      "name": "Farmer 3",
+      "role": "farmer",
+      "city": "Nagpur",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "42b6a6ec-ba55-4362-8014-f69bd17ef99d",
+    "timestamp": "2026-03-05T14:10:01.086996",
+    "action": "USER_CREATED",
+    "entity_type": "user",
+    "entity_id": "farmer-4",
+    "user_id": "farmer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "farmer-4",
+      "name": "Farmer 4",
+      "role": "farmer",
+      "city": "Aurangabad",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "6fe10deb-7bdb-45ce-b6d3-9507df28c809",
+    "timestamp": "2026-03-05T14:10:01.091551",
+    "action": "USER_CREATED",
+    "entity_type": "user",
+    "entity_id": "farmer-5",
+    "user_id": "farmer-5",
+    "old_value": null,
+    "new_value": {
+      "id": "farmer-5",
+      "name": "Farmer 5",
+      "role": "farmer",
+      "city": "Kolhapur",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "438d2ccd-af1d-4af3-8bd1-8e73bdb133eb",
+    "timestamp": "2026-03-05T14:10:01.096513",
+    "action": "USER_CREATED",
+    "entity_type": "user",
+    "entity_id": "farmer-6",
+    "user_id": "farmer-6",
+    "old_value": null,
+    "new_value": {
+      "id": "farmer-6",
+      "name": "Farmer 6",
+      "role": "farmer",
+      "city": "Solapur",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "a50d8d78-8c8b-4ec8-9261-b7daaf2a46f2",
+    "timestamp": "2026-03-05T14:10:01.101438",
+    "action": "USER_CREATED",
+    "entity_type": "user",
+    "entity_id": "buyer-1",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "buyer-1",
+      "name": "Buyer 1",
+      "role": "buyer",
+      "city": "Nagpur",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "15cd15d0-ffdf-4bde-a59a-1322f35d9910",
+    "timestamp": "2026-03-05T14:10:01.106130",
+    "action": "USER_CREATED",
+    "entity_type": "user",
+    "entity_id": "buyer-2",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "buyer-2",
+      "name": "Buyer 2",
+      "role": "buyer",
+      "city": "Aurangabad",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "04681d76-bd4d-4e7c-8a9d-7e22df2697fb",
+    "timestamp": "2026-03-05T14:10:01.110940",
+    "action": "USER_CREATED",
+    "entity_type": "user",
+    "entity_id": "buyer-3",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "buyer-3",
+      "name": "Buyer 3",
+      "role": "buyer",
+      "city": "Kolhapur",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "149a3b03-77da-4c82-8a6b-ffcec7eb1d07",
+    "timestamp": "2026-03-05T14:10:01.115486",
+    "action": "USER_CREATED",
+    "entity_type": "user",
+    "entity_id": "buyer-4",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "buyer-4",
+      "name": "Buyer 4",
+      "role": "buyer",
+      "city": "Solapur",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "f30f3341-07db-4905-bb31-e32640ac0a71",
+    "timestamp": "2026-03-05T14:10:01.119949",
+    "action": "USER_CREATED",
+    "entity_type": "user",
+    "entity_id": "middleman-1",
+    "user_id": "middleman-1",
+    "old_value": null,
+    "new_value": {
+      "id": "middleman-1",
+      "name": "Middleman 1",
+      "role": "middleman",
+      "city": "Kolhapur",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "d5037428-535b-4114-9d3a-ce9687b8a075",
+    "timestamp": "2026-03-05T14:10:01.124530",
+    "action": "USER_CREATED",
+    "entity_type": "user",
+    "entity_id": "middleman-2",
+    "user_id": "middleman-2",
+    "old_value": null,
+    "new_value": {
+      "id": "middleman-2",
+      "name": "Middleman 2",
+      "role": "middleman",
+      "city": "Solapur",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "6beeb3e3-24fc-4fba-8ea5-4fe255e3ceb2",
+    "timestamp": "2026-03-05T14:10:01.129186",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "cdd172f3-5885-4ce8-a436-5234696542f7",
+    "user_id": "farmer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "cdd172f3-5885-4ce8-a436-5234696542f7",
+      "farmer_id": "farmer-1",
+      "crop_name": "Alphonso Mango",
+      "city": "Pune",
+      "quantity_kg": 2324.0,
+      "price_per_quintal": 7537.52,
+      "quality_grade": "A",
+      "status": "active",
+      "created_at": "2026-03-05T14:10:01.052259",
+      "updated_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "8064e6fc-5493-4cb6-8787-012eadef3500",
+    "timestamp": "2026-03-05T14:10:01.133999",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "e0e7a08e-f0f9-4a93-b74b-789651d9381d",
+    "user_id": "farmer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "e0e7a08e-f0f9-4a93-b74b-789651d9381d",
+      "farmer_id": "farmer-2",
+      "crop_name": "Onion",
+      "city": "Nashik",
+      "quantity_kg": 4512.0,
+      "price_per_quintal": 1423.21,
+      "quality_grade": "B",
+      "status": "sold",
+      "created_at": "2026-03-05T13:10:01.052259",
+      "updated_at": "2026-03-05T13:10:01.052259"
+    }
+  },
+  {
+    "id": "2978b798-5e99-4dbd-8807-49126881b308",
+    "timestamp": "2026-03-05T14:10:01.139521",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "f540f59f-1049-4b56-af3d-4fbf18add796",
+    "user_id": "farmer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "f540f59f-1049-4b56-af3d-4fbf18add796",
+      "farmer_id": "farmer-3",
+      "crop_name": "Wheat",
+      "city": "Nagpur",
+      "quantity_kg": 2179.0,
+      "price_per_quintal": 2035.34,
+      "quality_grade": "B",
+      "status": "sold",
+      "created_at": "2026-03-05T12:10:01.052259",
+      "updated_at": "2026-03-05T12:10:01.052259"
+    }
+  },
+  {
+    "id": "06722c57-d4e0-48bb-a3fd-eaeceb996814",
+    "timestamp": "2026-03-05T14:10:01.144299",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "5558f8c7-6b88-4d4d-81c5-c8781a106d43",
+    "user_id": "farmer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "5558f8c7-6b88-4d4d-81c5-c8781a106d43",
+      "farmer_id": "farmer-4",
+      "crop_name": "Pomegranate",
+      "city": "Aurangabad",
+      "quantity_kg": 1924.0,
+      "price_per_quintal": 7180.99,
+      "quality_grade": "A",
+      "status": "active",
+      "created_at": "2026-03-05T11:10:01.052259",
+      "updated_at": "2026-03-05T11:10:01.052259"
+    }
+  },
+  {
+    "id": "89a2a13a-ad62-4426-a82b-23df2a188330",
+    "timestamp": "2026-03-05T14:10:01.148987",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "2e6398f4-d819-4bd8-a344-e900dceb1df6",
+    "user_id": "farmer-5",
+    "old_value": null,
+    "new_value": {
+      "id": "2e6398f4-d819-4bd8-a344-e900dceb1df6",
+      "farmer_id": "farmer-5",
+      "crop_name": "Soybean",
+      "city": "Kolhapur",
+      "quantity_kg": 988.0,
+      "price_per_quintal": 4256.22,
+      "quality_grade": "A",
+      "status": "sold",
+      "created_at": "2026-03-05T10:10:01.052259",
+      "updated_at": "2026-03-05T10:10:01.052259"
+    }
+  },
+  {
+    "id": "d3be4c62-258b-402d-93a0-603ca3298c96",
+    "timestamp": "2026-03-05T14:10:01.153841",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "e8d41263-eb4e-4a61-8661-bd5f3405e7b9",
+    "user_id": "farmer-6",
+    "old_value": null,
+    "new_value": {
+      "id": "e8d41263-eb4e-4a61-8661-bd5f3405e7b9",
+      "farmer_id": "farmer-6",
+      "crop_name": "Cotton",
+      "city": "Solapur",
+      "quantity_kg": 8779.0,
+      "price_per_quintal": 7102.02,
+      "quality_grade": "B",
+      "status": "active",
+      "created_at": "2026-03-05T09:10:01.052259",
+      "updated_at": "2026-03-05T09:10:01.052259"
+    }
+  },
+  {
+    "id": "e8fecdc7-15c4-4e36-a5f5-3858816d5fd3",
+    "timestamp": "2026-03-05T14:10:01.158798",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "9fe969fe-c014-49f4-903a-ff58515d577a",
+    "user_id": "farmer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "9fe969fe-c014-49f4-903a-ff58515d577a",
+      "farmer_id": "farmer-1",
+      "crop_name": "Sugarcane",
+      "city": "Amravati",
+      "quantity_kg": 3757.0,
+      "price_per_quintal": 308.64,
+      "quality_grade": "B",
+      "status": "active",
+      "created_at": "2026-03-05T08:10:01.052259",
+      "updated_at": "2026-03-05T08:10:01.052259"
+    }
+  },
+  {
+    "id": "c027a34c-02f5-496f-b02c-616224cd483b",
+    "timestamp": "2026-03-05T14:10:01.163736",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "859cee5a-82e4-49e9-af63-f0a4db10ee51",
+    "user_id": "farmer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "859cee5a-82e4-49e9-af63-f0a4db10ee51",
+      "farmer_id": "farmer-2",
+      "crop_name": "Jowar",
+      "city": "Latur",
+      "quantity_kg": 7373.0,
+      "price_per_quintal": 2288.18,
+      "quality_grade": "B",
+      "status": "sold",
+      "created_at": "2026-03-05T07:10:01.052259",
+      "updated_at": "2026-03-05T07:10:01.052259"
+    }
+  },
+  {
+    "id": "76f66016-6a54-4023-882d-0370a54ccce2",
+    "timestamp": "2026-03-05T14:10:01.168467",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "4167cba2-80d9-43eb-8b14-88280c854829",
+    "user_id": "farmer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "4167cba2-80d9-43eb-8b14-88280c854829",
+      "farmer_id": "farmer-3",
+      "crop_name": "Alphonso Mango",
+      "city": "Pune",
+      "quantity_kg": 5057.0,
+      "price_per_quintal": 8714.15,
+      "quality_grade": "A",
+      "status": "sold",
+      "created_at": "2026-03-05T06:10:01.052259",
+      "updated_at": "2026-03-05T06:10:01.052259"
+    }
+  },
+  {
+    "id": "662c4c8f-aeae-45a7-833e-9cd5583cd1c0",
+    "timestamp": "2026-03-05T14:10:01.173394",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "6dcaf727-58f3-47f9-9c34-716870a55018",
+    "user_id": "farmer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "6dcaf727-58f3-47f9-9c34-716870a55018",
+      "farmer_id": "farmer-4",
+      "crop_name": "Onion",
+      "city": "Nashik",
+      "quantity_kg": 3115.0,
+      "price_per_quintal": 1898.14,
+      "quality_grade": "A",
+      "status": "active",
+      "created_at": "2026-03-05T05:10:01.052259",
+      "updated_at": "2026-03-05T05:10:01.052259"
+    }
+  },
+  {
+    "id": "355d7432-95ae-4488-aa0b-874cf8c4d416",
+    "timestamp": "2026-03-05T14:10:01.178491",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "e9c34ae6-1f1d-4828-87c8-1352d66882d5",
+    "user_id": "farmer-5",
+    "old_value": null,
+    "new_value": {
+      "id": "e9c34ae6-1f1d-4828-87c8-1352d66882d5",
+      "farmer_id": "farmer-5",
+      "crop_name": "Wheat",
+      "city": "Nagpur",
+      "quantity_kg": 5052.0,
+      "price_per_quintal": 1931.1,
+      "quality_grade": "A",
+      "status": "active",
+      "created_at": "2026-03-05T04:10:01.052259",
+      "updated_at": "2026-03-05T04:10:01.052259"
+    }
+  },
+  {
+    "id": "707184cb-0349-433f-91c1-963af562b539",
+    "timestamp": "2026-03-05T14:10:01.183860",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "248106a6-bd3c-4f46-bc87-ab62e623fa03",
+    "user_id": "farmer-6",
+    "old_value": null,
+    "new_value": {
+      "id": "248106a6-bd3c-4f46-bc87-ab62e623fa03",
+      "farmer_id": "farmer-6",
+      "crop_name": "Pomegranate",
+      "city": "Aurangabad",
+      "quantity_kg": 2174.0,
+      "price_per_quintal": 6185.49,
+      "quality_grade": "A",
+      "status": "active",
+      "created_at": "2026-03-05T03:10:01.052259",
+      "updated_at": "2026-03-05T03:10:01.052259"
+    }
+  },
+  {
+    "id": "c4b71de8-c186-4a5d-8a27-6e9dcb2d8289",
+    "timestamp": "2026-03-05T14:10:01.189117",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "7929a012-77e6-4d42-a2c4-fa3b298b8ec8",
+    "user_id": "farmer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "7929a012-77e6-4d42-a2c4-fa3b298b8ec8",
+      "farmer_id": "farmer-1",
+      "crop_name": "Soybean",
+      "city": "Kolhapur",
+      "quantity_kg": 6381.0,
+      "price_per_quintal": 4708.5,
+      "quality_grade": "B",
+      "status": "active",
+      "created_at": "2026-03-05T02:10:01.052259",
+      "updated_at": "2026-03-05T02:10:01.052259"
+    }
+  },
+  {
+    "id": "3166971c-b8e0-436b-9b47-a1bea3258669",
+    "timestamp": "2026-03-05T14:10:01.194123",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "ba0a004b-f2f6-432a-8c18-55b6d1a8d8c0",
+    "user_id": "farmer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "ba0a004b-f2f6-432a-8c18-55b6d1a8d8c0",
+      "farmer_id": "farmer-2",
+      "crop_name": "Cotton",
+      "city": "Solapur",
+      "quantity_kg": 4833.0,
+      "price_per_quintal": 7307.13,
+      "quality_grade": "B",
+      "status": "active",
+      "created_at": "2026-03-05T01:10:01.052259",
+      "updated_at": "2026-03-05T01:10:01.052259"
+    }
+  },
+  {
+    "id": "3efa02dc-5d92-4a70-9b86-7ee1b06ab829",
+    "timestamp": "2026-03-05T14:10:01.199203",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "d5236e9f-8ba7-4786-a36c-d0e1e431cbe7",
+    "user_id": "farmer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "d5236e9f-8ba7-4786-a36c-d0e1e431cbe7",
+      "farmer_id": "farmer-3",
+      "crop_name": "Sugarcane",
+      "city": "Amravati",
+      "quantity_kg": 8027.0,
+      "price_per_quintal": 301.45,
+      "quality_grade": "A",
+      "status": "active",
+      "created_at": "2026-03-05T00:10:01.052259",
+      "updated_at": "2026-03-05T00:10:01.052259"
+    }
+  },
+  {
+    "id": "8d4a029a-ce98-4a94-8b60-549ca6939965",
+    "timestamp": "2026-03-05T14:10:01.204232",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "1524429a-acde-49bd-a758-fa9bdcf9099a",
+    "user_id": "farmer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "1524429a-acde-49bd-a758-fa9bdcf9099a",
+      "farmer_id": "farmer-4",
+      "crop_name": "Jowar",
+      "city": "Latur",
+      "quantity_kg": 1791.0,
+      "price_per_quintal": 2420.82,
+      "quality_grade": "B",
+      "status": "active",
+      "created_at": "2026-03-04T23:10:01.052259",
+      "updated_at": "2026-03-04T23:10:01.052259"
+    }
+  },
+  {
+    "id": "e1de9ec3-431f-4cca-ba14-a2fa1633426d",
+    "timestamp": "2026-03-05T14:10:01.209069",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "17f4cfc7-059f-4476-a287-ab37e9d766f3",
+    "user_id": "farmer-5",
+    "old_value": null,
+    "new_value": {
+      "id": "17f4cfc7-059f-4476-a287-ab37e9d766f3",
+      "farmer_id": "farmer-5",
+      "crop_name": "Alphonso Mango",
+      "city": "Pune",
+      "quantity_kg": 6425.0,
+      "price_per_quintal": 8366.03,
+      "quality_grade": "B",
+      "status": "active",
+      "created_at": "2026-03-04T22:10:01.052259",
+      "updated_at": "2026-03-04T22:10:01.052259"
+    }
+  },
+  {
+    "id": "d3a240a2-0224-4550-b009-6c2d88043d60",
+    "timestamp": "2026-03-05T14:10:01.214135",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "926fd0c2-db1d-41cb-b7c5-68b29412d3fc",
+    "user_id": "farmer-6",
+    "old_value": null,
+    "new_value": {
+      "id": "926fd0c2-db1d-41cb-b7c5-68b29412d3fc",
+      "farmer_id": "farmer-6",
+      "crop_name": "Onion",
+      "city": "Nashik",
+      "quantity_kg": 1639.0,
+      "price_per_quintal": 1245.82,
+      "quality_grade": "A",
+      "status": "active",
+      "created_at": "2026-03-04T21:10:01.052259",
+      "updated_at": "2026-03-04T21:10:01.052259"
+    }
+  },
+  {
+    "id": "8fde7467-cf53-4b37-bc1a-f8fdd7faebce",
+    "timestamp": "2026-03-05T14:10:01.219677",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "03888e80-2d17-422e-80a9-51c7c7bfbf43",
+    "user_id": "farmer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "03888e80-2d17-422e-80a9-51c7c7bfbf43",
+      "farmer_id": "farmer-1",
+      "crop_name": "Wheat",
+      "city": "Nagpur",
+      "quantity_kg": 5241.0,
+      "price_per_quintal": 2097.04,
+      "quality_grade": "A",
+      "status": "active",
+      "created_at": "2026-03-04T20:10:01.052259",
+      "updated_at": "2026-03-04T20:10:01.052259"
+    }
+  },
+  {
+    "id": "cbbab9ab-82bb-443c-94e9-d4cb1848798e",
+    "timestamp": "2026-03-05T14:10:01.225384",
+    "action": "LISTING_CREATED",
+    "entity_type": "listing",
+    "entity_id": "d7ff1fe7-3e98-4e5f-9dc3-10004c3ff72c",
+    "user_id": "farmer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "d7ff1fe7-3e98-4e5f-9dc3-10004c3ff72c",
+      "farmer_id": "farmer-2",
+      "crop_name": "Pomegranate",
+      "city": "Aurangabad",
+      "quantity_kg": 2154.0,
+      "price_per_quintal": 6760.25,
+      "quality_grade": "A",
+      "status": "active",
+      "created_at": "2026-03-04T19:10:01.052259",
+      "updated_at": "2026-03-04T19:10:01.052259"
+    }
+  },
+  {
+    "id": "2cff96da-e28c-4f91-8bfb-5018b5d0b30c",
+    "timestamp": "2026-03-05T14:10:01.230580",
+    "action": "OFFER_CREATED",
+    "entity_type": "offer",
+    "entity_id": "809077df-1f8a-43af-a614-7873e9d7460b",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "809077df-1f8a-43af-a614-7873e9d7460b",
+      "listing_id": "cdd172f3-5885-4ce8-a436-5234696542f7",
+      "buyer_id": "buyer-1",
+      "farmer_id": "farmer-1",
+      "offered_price": 7406.66,
+      "counter_price": null,
+      "accepted_price": null,
+      "status": "pending",
+      "created_at": "2026-03-05T13:10:01.052259",
+      "updated_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "0a5ac979-79a7-4a4a-8185-b5a6589acff0",
+    "timestamp": "2026-03-05T14:10:01.235865",
+    "action": "OFFER_CREATED",
+    "entity_type": "offer",
+    "entity_id": "e8caa0da-341c-4a95-9f29-34be04353fd6",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "e8caa0da-341c-4a95-9f29-34be04353fd6",
+      "listing_id": "e0e7a08e-f0f9-4a93-b74b-789651d9381d",
+      "buyer_id": "buyer-2",
+      "farmer_id": "farmer-2",
+      "offered_price": 1348.39,
+      "counter_price": null,
+      "accepted_price": 1348.39,
+      "status": "accepted",
+      "created_at": "2026-03-05T12:10:01.052259",
+      "updated_at": "2026-03-05T13:10:01.052259"
+    }
+  },
+  {
+    "id": "29e8bf49-66e4-4c63-ba7a-59c901595507",
+    "timestamp": "2026-03-05T14:10:01.241226",
+    "action": "OFFER_CREATED",
+    "entity_type": "offer",
+    "entity_id": "188a2bc2-0950-432c-a238-adccf29683a9",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "188a2bc2-0950-432c-a238-adccf29683a9",
+      "listing_id": "f540f59f-1049-4b56-af3d-4fbf18add796",
+      "buyer_id": "buyer-3",
+      "farmer_id": "farmer-3",
+      "offered_price": 1929.75,
+      "counter_price": null,
+      "accepted_price": 1929.75,
+      "status": "accepted",
+      "created_at": "2026-03-05T11:10:01.052259",
+      "updated_at": "2026-03-05T12:10:01.052259"
+    }
+  },
+  {
+    "id": "781b52eb-f68a-4d4b-a8c7-d8e61321e3f5",
+    "timestamp": "2026-03-05T14:10:01.246891",
+    "action": "OFFER_CREATED",
+    "entity_type": "offer",
+    "entity_id": "7bd6d05a-3d1d-473e-972b-f90537de7d5e",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "7bd6d05a-3d1d-473e-972b-f90537de7d5e",
+      "listing_id": "5558f8c7-6b88-4d4d-81c5-c8781a106d43",
+      "buyer_id": "buyer-4",
+      "farmer_id": "farmer-4",
+      "offered_price": 6658.47,
+      "counter_price": null,
+      "accepted_price": null,
+      "status": "pending",
+      "created_at": "2026-03-05T10:10:01.052259",
+      "updated_at": "2026-03-05T11:10:01.052259"
+    }
+  },
+  {
+    "id": "0ccfe4b6-0437-44be-aff6-2b31bcf5ccf8",
+    "timestamp": "2026-03-05T14:10:01.252447",
+    "action": "OFFER_CREATED",
+    "entity_type": "offer",
+    "entity_id": "d5566225-6847-485f-a3db-2f0e8df4ca72",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "d5566225-6847-485f-a3db-2f0e8df4ca72",
+      "listing_id": "2e6398f4-d819-4bd8-a344-e900dceb1df6",
+      "buyer_id": "buyer-1",
+      "farmer_id": "farmer-5",
+      "offered_price": 3978.32,
+      "counter_price": null,
+      "accepted_price": 3978.32,
+      "status": "accepted",
+      "created_at": "2026-03-05T09:10:01.052259",
+      "updated_at": "2026-03-05T10:10:01.052259"
+    }
+  },
+  {
+    "id": "951c8300-5e95-4b34-80fa-838ba0ff680a",
+    "timestamp": "2026-03-05T14:10:01.257995",
+    "action": "OFFER_CREATED",
+    "entity_type": "offer",
+    "entity_id": "b9581050-2180-48f4-8787-a36b491eaa15",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "b9581050-2180-48f4-8787-a36b491eaa15",
+      "listing_id": "e8d41263-eb4e-4a61-8661-bd5f3405e7b9",
+      "buyer_id": "buyer-2",
+      "farmer_id": "farmer-6",
+      "offered_price": 7256.6,
+      "counter_price": null,
+      "accepted_price": null,
+      "status": "rejected",
+      "created_at": "2026-03-05T08:10:01.052259",
+      "updated_at": "2026-03-05T09:10:01.052259"
+    }
+  },
+  {
+    "id": "ea076263-d601-44c9-a109-5ffb7e8ba4f4",
+    "timestamp": "2026-03-05T14:10:01.263992",
+    "action": "OFFER_CREATED",
+    "entity_type": "offer",
+    "entity_id": "099f675b-a5e3-44e2-87d9-fc12f2d53356",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "099f675b-a5e3-44e2-87d9-fc12f2d53356",
+      "listing_id": "9fe969fe-c014-49f4-903a-ff58515d577a",
+      "buyer_id": "buyer-3",
+      "farmer_id": "farmer-1",
+      "offered_price": 303.78,
+      "counter_price": 306.82,
+      "accepted_price": null,
+      "status": "countered",
+      "created_at": "2026-03-05T07:10:01.052259",
+      "updated_at": "2026-03-05T08:10:01.052259"
+    }
+  },
+  {
+    "id": "a9d953e0-d15b-48cb-a828-4b0d0f87a57d",
+    "timestamp": "2026-03-05T14:10:01.269434",
+    "action": "OFFER_CREATED",
+    "entity_type": "offer",
+    "entity_id": "72a880fb-13ae-48d5-b955-3e8b95b18c5b",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "72a880fb-13ae-48d5-b955-3e8b95b18c5b",
+      "listing_id": "859cee5a-82e4-49e9-af63-f0a4db10ee51",
+      "buyer_id": "buyer-4",
+      "farmer_id": "farmer-2",
+      "offered_price": 2240.56,
+      "counter_price": null,
+      "accepted_price": 2240.56,
+      "status": "accepted",
+      "created_at": "2026-03-05T06:10:01.052259",
+      "updated_at": "2026-03-05T07:10:01.052259"
+    }
+  },
+  {
+    "id": "38dd693d-e3d7-41d6-88ce-d91f1f184c9d",
+    "timestamp": "2026-03-05T14:10:01.275135",
+    "action": "OFFER_CREATED",
+    "entity_type": "offer",
+    "entity_id": "f8b39ce4-7f51-42a0-a26b-b4048d0af21b",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "f8b39ce4-7f51-42a0-a26b-b4048d0af21b",
+      "listing_id": "4167cba2-80d9-43eb-8b14-88280c854829",
+      "buyer_id": "buyer-1",
+      "farmer_id": "farmer-3",
+      "offered_price": 8036.61,
+      "counter_price": null,
+      "accepted_price": 8036.61,
+      "status": "accepted",
+      "created_at": "2026-03-05T05:10:01.052259",
+      "updated_at": "2026-03-05T06:10:01.052259"
+    }
+  },
+  {
+    "id": "9aca48ca-1209-47b0-852c-eb507c6a01c0",
+    "timestamp": "2026-03-05T14:10:01.280776",
+    "action": "OFFER_CREATED",
+    "entity_type": "offer",
+    "entity_id": "ed0cfd7e-bda7-4a01-92ed-d871385e9400",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "ed0cfd7e-bda7-4a01-92ed-d871385e9400",
+      "listing_id": "6dcaf727-58f3-47f9-9c34-716870a55018",
+      "buyer_id": "buyer-2",
+      "farmer_id": "farmer-4",
+      "offered_price": 1888.24,
+      "counter_price": null,
+      "accepted_price": null,
+      "status": "pending",
+      "created_at": "2026-03-05T04:10:01.052259",
+      "updated_at": "2026-03-05T05:10:01.052259"
+    }
+  },
+  {
+    "id": "726afae3-9b9b-4c0c-b31d-d73112b1d4f7",
+    "timestamp": "2026-03-05T14:10:01.286254",
+    "action": "TRANSACTION_COMPLETED",
+    "entity_type": "transaction",
+    "entity_id": "91428d48-d07d-440c-a58e-6dc952179ca9",
+    "user_id": "farmer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "91428d48-d07d-440c-a58e-6dc952179ca9",
+      "offer_id": "e8caa0da-341c-4a95-9f29-34be04353fd6",
+      "listing_id": "e0e7a08e-f0f9-4a93-b74b-789651d9381d",
+      "farmer_id": "farmer-2",
+      "buyer_id": "buyer-2",
+      "deal_value": 1348.39,
+      "commission": {
+        "platform_fee": 40.45,
+        "facilitator_fee": 26.97,
+        "farmer_receives": 1280.97,
+        "total_commission": 67.42
+      },
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "a06ce0ff-7605-4794-a3c9-2464915bd199",
+    "timestamp": "2026-03-05T14:10:01.291728",
+    "action": "TRANSACTION_COMPLETED",
+    "entity_type": "transaction",
+    "entity_id": "12a36171-6000-4f3a-b84d-33bd7da4202f",
+    "user_id": "farmer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "12a36171-6000-4f3a-b84d-33bd7da4202f",
+      "offer_id": "188a2bc2-0950-432c-a238-adccf29683a9",
+      "listing_id": "f540f59f-1049-4b56-af3d-4fbf18add796",
+      "farmer_id": "farmer-3",
+      "buyer_id": "buyer-3",
+      "deal_value": 1929.75,
+      "commission": {
+        "platform_fee": 57.89,
+        "facilitator_fee": 38.59,
+        "farmer_receives": 1833.26,
+        "total_commission": 96.49
+      },
+      "created_at": "2026-03-04T14:10:01.052259"
+    }
+  },
+  {
+    "id": "fba1cbcf-25f3-45ca-82a2-5b03a02656e2",
+    "timestamp": "2026-03-05T14:10:01.297466",
+    "action": "TRANSACTION_COMPLETED",
+    "entity_type": "transaction",
+    "entity_id": "d7ffac20-20e6-4dbc-b899-aaed174752dc",
+    "user_id": "farmer-5",
+    "old_value": null,
+    "new_value": {
+      "id": "d7ffac20-20e6-4dbc-b899-aaed174752dc",
+      "offer_id": "d5566225-6847-485f-a3db-2f0e8df4ca72",
+      "listing_id": "2e6398f4-d819-4bd8-a344-e900dceb1df6",
+      "farmer_id": "farmer-5",
+      "buyer_id": "buyer-1",
+      "deal_value": 3978.32,
+      "commission": {
+        "platform_fee": 119.35,
+        "facilitator_fee": 79.57,
+        "farmer_receives": 3779.4,
+        "total_commission": 198.92
+      },
+      "created_at": "2026-03-03T14:10:01.052259"
+    }
+  },
+  {
+    "id": "5ec15fe0-aeb0-4678-a8ff-f4359f1f6943",
+    "timestamp": "2026-03-05T14:10:01.303715",
+    "action": "TRANSACTION_COMPLETED",
+    "entity_type": "transaction",
+    "entity_id": "fef1a8c2-6f7d-4dca-bb4c-3b889f0e3d2c",
+    "user_id": "farmer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "fef1a8c2-6f7d-4dca-bb4c-3b889f0e3d2c",
+      "offer_id": "72a880fb-13ae-48d5-b955-3e8b95b18c5b",
+      "listing_id": "859cee5a-82e4-49e9-af63-f0a4db10ee51",
+      "farmer_id": "farmer-2",
+      "buyer_id": "buyer-4",
+      "deal_value": 2240.56,
+      "commission": {
+        "platform_fee": 67.22,
+        "facilitator_fee": 44.81,
+        "farmer_receives": 2128.53,
+        "total_commission": 112.03
+      },
+      "created_at": "2026-03-02T14:10:01.052259"
+    }
+  },
+  {
+    "id": "a2170a7d-66e7-4a3b-9125-a777da8a1054",
+    "timestamp": "2026-03-05T14:10:01.309385",
+    "action": "TRANSACTION_COMPLETED",
+    "entity_type": "transaction",
+    "entity_id": "a5518f43-2c2a-44cf-9103-95a352dc5d22",
+    "user_id": "farmer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "a5518f43-2c2a-44cf-9103-95a352dc5d22",
+      "offer_id": "f8b39ce4-7f51-42a0-a26b-b4048d0af21b",
+      "listing_id": "4167cba2-80d9-43eb-8b14-88280c854829",
+      "farmer_id": "farmer-3",
+      "buyer_id": "buyer-1",
+      "deal_value": 8036.61,
+      "commission": {
+        "platform_fee": 241.1,
+        "facilitator_fee": 160.73,
+        "farmer_receives": 7634.78,
+        "total_commission": 401.83
+      },
+      "created_at": "2026-03-01T14:10:01.052259"
+    }
+  },
+  {
+    "id": "72ccf2ff-0b37-4994-918f-a234831bbde4",
+    "timestamp": "2026-03-05T14:10:01.315521",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "c500b0de-6963-4adb-823c-85ab1a5caab1",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "c500b0de-6963-4adb-823c-85ab1a5caab1",
+      "user_id": "buyer-1",
+      "crop": "Alphonso Mango",
+      "city": "Pune",
+      "price_per_quintal": 7745.1,
+      "recorded_at": "2026-03-05T14:10:01.052259",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "fb93c38e-c4d2-45fd-be2b-760728c0c2d0",
+    "timestamp": "2026-03-05T14:10:01.321700",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "2e74758e-5758-4483-afd5-d0fcc3fd30f5",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "2e74758e-5758-4483-afd5-d0fcc3fd30f5",
+      "user_id": "buyer-1",
+      "crop": "Onion",
+      "city": "Pune",
+      "price_per_quintal": 1579.46,
+      "recorded_at": "2026-03-05T14:10:01.052259",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "0ff71a1b-90a5-41ea-94c1-f5bf6630ea1e",
+    "timestamp": "2026-03-05T14:10:01.327573",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "0fefa4d3-bb31-47bc-8727-57b3650dc244",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "0fefa4d3-bb31-47bc-8727-57b3650dc244",
+      "user_id": "buyer-1",
+      "crop": "Wheat",
+      "city": "Pune",
+      "price_per_quintal": 2097.9,
+      "recorded_at": "2026-03-05T14:10:01.052259",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "85ace34e-3a3a-4c44-b911-1dc756ccb0de",
+    "timestamp": "2026-03-05T14:10:01.333207",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "711f90c9-65f1-46c0-831d-1c0870531520",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "711f90c9-65f1-46c0-831d-1c0870531520",
+      "user_id": "buyer-1",
+      "crop": "Pomegranate",
+      "city": "Pune",
+      "price_per_quintal": 7280.0,
+      "recorded_at": "2026-03-05T14:10:01.052259",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "ce1320e4-bc4c-4c36-a9c2-2073964d2fc9",
+    "timestamp": "2026-03-05T14:10:01.339203",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "ac27c914-0bad-4680-bc8f-b31b18b697a3",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "ac27c914-0bad-4680-bc8f-b31b18b697a3",
+      "user_id": "buyer-1",
+      "crop": "Soybean",
+      "city": "Pune",
+      "price_per_quintal": 4534.17,
+      "recorded_at": "2026-03-05T14:10:01.052259",
+      "created_at": "2026-03-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "bb54cb15-5e23-47ad-afd6-1f3db9c90641",
+    "timestamp": "2026-03-05T14:10:01.345509",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "c4ac835f-83dc-4242-82e2-8f993f6a9f78",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "c4ac835f-83dc-4242-82e2-8f993f6a9f78",
+      "user_id": "buyer-2",
+      "crop": "Alphonso Mango",
+      "city": "Nashik",
+      "price_per_quintal": 8526.92,
+      "recorded_at": "2026-03-04T14:10:01.052259",
+      "created_at": "2026-03-04T14:10:01.052259"
+    }
+  },
+  {
+    "id": "f109a7df-95c7-42dc-9413-704ab10e9e7c",
+    "timestamp": "2026-03-05T14:10:01.351470",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "dc6a0a35-8f23-4f61-b63d-3af9fa3df50a",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "dc6a0a35-8f23-4f61-b63d-3af9fa3df50a",
+      "user_id": "buyer-2",
+      "crop": "Onion",
+      "city": "Nashik",
+      "price_per_quintal": 2042.85,
+      "recorded_at": "2026-03-04T14:10:01.052259",
+      "created_at": "2026-03-04T14:10:01.052259"
+    }
+  },
+  {
+    "id": "4a07eeb1-4c37-49d0-9efe-5517ef82d982",
+    "timestamp": "2026-03-05T14:10:01.357331",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "8e9cd22f-ec4d-40e8-9392-c22a33e0aaeb",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "8e9cd22f-ec4d-40e8-9392-c22a33e0aaeb",
+      "user_id": "buyer-2",
+      "crop": "Wheat",
+      "city": "Nashik",
+      "price_per_quintal": 2055.2,
+      "recorded_at": "2026-03-04T14:10:01.052259",
+      "created_at": "2026-03-04T14:10:01.052259"
+    }
+  },
+  {
+    "id": "7cf8d276-3a09-480f-b3e0-6faa5a852523",
+    "timestamp": "2026-03-05T14:10:01.363247",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "bb363ef2-175c-47ca-99de-bce26791a1ff",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "bb363ef2-175c-47ca-99de-bce26791a1ff",
+      "user_id": "buyer-2",
+      "crop": "Pomegranate",
+      "city": "Nashik",
+      "price_per_quintal": 6458.1,
+      "recorded_at": "2026-03-04T14:10:01.052259",
+      "created_at": "2026-03-04T14:10:01.052259"
+    }
+  },
+  {
+    "id": "0911d35e-ba07-4913-ae21-b613ac7a8b88",
+    "timestamp": "2026-03-05T14:10:01.369394",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "5c7ab9ed-d905-4165-8bad-44091c4c75c9",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "5c7ab9ed-d905-4165-8bad-44091c4c75c9",
+      "user_id": "buyer-2",
+      "crop": "Soybean",
+      "city": "Nashik",
+      "price_per_quintal": 4219.26,
+      "recorded_at": "2026-03-04T14:10:01.052259",
+      "created_at": "2026-03-04T14:10:01.052259"
+    }
+  },
+  {
+    "id": "0ec99763-6892-462e-b07d-ba5c34fa6042",
+    "timestamp": "2026-03-05T14:10:01.375123",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "9ca61103-c9c2-42af-a7ba-1aea454e707d",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "9ca61103-c9c2-42af-a7ba-1aea454e707d",
+      "user_id": "buyer-3",
+      "crop": "Alphonso Mango",
+      "city": "Nagpur",
+      "price_per_quintal": 7973.18,
+      "recorded_at": "2026-03-03T14:10:01.052259",
+      "created_at": "2026-03-03T14:10:01.052259"
+    }
+  },
+  {
+    "id": "d2899482-8c5a-4c9e-9039-a7c6420d72e1",
+    "timestamp": "2026-03-05T14:10:01.381482",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "47329d16-b8df-4a5b-85dd-d886cee99135",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "47329d16-b8df-4a5b-85dd-d886cee99135",
+      "user_id": "buyer-3",
+      "crop": "Onion",
+      "city": "Nagpur",
+      "price_per_quintal": 1467.74,
+      "recorded_at": "2026-03-03T14:10:01.052259",
+      "created_at": "2026-03-03T14:10:01.052259"
+    }
+  },
+  {
+    "id": "65f93773-7b7d-46ac-91dd-d37191c82ea1",
+    "timestamp": "2026-03-05T14:10:01.388145",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "71e479ee-dd60-4bb4-a285-920e9eae7fc6",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "71e479ee-dd60-4bb4-a285-920e9eae7fc6",
+      "user_id": "buyer-3",
+      "crop": "Wheat",
+      "city": "Nagpur",
+      "price_per_quintal": 1942.2,
+      "recorded_at": "2026-03-03T14:10:01.052259",
+      "created_at": "2026-03-03T14:10:01.052259"
+    }
+  },
+  {
+    "id": "ba5031d9-dd82-45f5-a17f-f963114ab50e",
+    "timestamp": "2026-03-05T14:10:01.394034",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "f261175c-4784-4398-93d9-8722c4c0de41",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "f261175c-4784-4398-93d9-8722c4c0de41",
+      "user_id": "buyer-3",
+      "crop": "Pomegranate",
+      "city": "Nagpur",
+      "price_per_quintal": 7885.82,
+      "recorded_at": "2026-03-03T14:10:01.052259",
+      "created_at": "2026-03-03T14:10:01.052259"
+    }
+  },
+  {
+    "id": "a404d7d9-5f44-43e6-b776-b131cfe0d7a5",
+    "timestamp": "2026-03-05T14:10:01.400273",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "cb56fc72-648e-4d5c-92bb-0a246a501d1e",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "cb56fc72-648e-4d5c-92bb-0a246a501d1e",
+      "user_id": "buyer-3",
+      "crop": "Soybean",
+      "city": "Nagpur",
+      "price_per_quintal": 4725.82,
+      "recorded_at": "2026-03-03T14:10:01.052259",
+      "created_at": "2026-03-03T14:10:01.052259"
+    }
+  },
+  {
+    "id": "380d54dd-ff39-4624-a681-10f42ca8bec0",
+    "timestamp": "2026-03-05T14:10:01.406314",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "001fb625-260a-450f-ae92-893b96cccb03",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "001fb625-260a-450f-ae92-893b96cccb03",
+      "user_id": "buyer-4",
+      "crop": "Alphonso Mango",
+      "city": "Aurangabad",
+      "price_per_quintal": 7972.02,
+      "recorded_at": "2026-03-02T14:10:01.052259",
+      "created_at": "2026-03-02T14:10:01.052259"
+    }
+  },
+  {
+    "id": "61c83822-d187-485e-9229-75ba3cb09a05",
+    "timestamp": "2026-03-05T14:10:01.412635",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "f4465c69-8033-49e7-aa65-224bde78badd",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "f4465c69-8033-49e7-aa65-224bde78badd",
+      "user_id": "buyer-4",
+      "crop": "Onion",
+      "city": "Aurangabad",
+      "price_per_quintal": 1855.44,
+      "recorded_at": "2026-03-02T14:10:01.052259",
+      "created_at": "2026-03-02T14:10:01.052259"
+    }
+  },
+  {
+    "id": "d4569075-b419-449d-b137-8d8f7885a405",
+    "timestamp": "2026-03-05T14:10:01.418559",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "4bcf44b7-ccaa-41ca-bcf8-3fa3a61e61fc",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "4bcf44b7-ccaa-41ca-bcf8-3fa3a61e61fc",
+      "user_id": "buyer-4",
+      "crop": "Wheat",
+      "city": "Aurangabad",
+      "price_per_quintal": 1979.13,
+      "recorded_at": "2026-03-02T14:10:01.052259",
+      "created_at": "2026-03-02T14:10:01.052259"
+    }
+  },
+  {
+    "id": "0c23eca9-9911-4cac-86d3-c11b0ab1cb91",
+    "timestamp": "2026-03-05T14:10:01.424948",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "304ac40b-1bd1-4589-bb1d-ecf8c9d31eac",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "304ac40b-1bd1-4589-bb1d-ecf8c9d31eac",
+      "user_id": "buyer-4",
+      "crop": "Pomegranate",
+      "city": "Aurangabad",
+      "price_per_quintal": 7829.1,
+      "recorded_at": "2026-03-02T14:10:01.052259",
+      "created_at": "2026-03-02T14:10:01.052259"
+    }
+  },
+  {
+    "id": "55f0bbdd-831b-4113-962c-e0abbade7e8e",
+    "timestamp": "2026-03-05T14:10:01.431749",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "920d9f0a-8016-4fbb-8475-020e72ca7b24",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "920d9f0a-8016-4fbb-8475-020e72ca7b24",
+      "user_id": "buyer-4",
+      "crop": "Soybean",
+      "city": "Aurangabad",
+      "price_per_quintal": 4475.31,
+      "recorded_at": "2026-03-02T14:10:01.052259",
+      "created_at": "2026-03-02T14:10:01.052259"
+    }
+  },
+  {
+    "id": "3c921d3a-2d78-4aef-9fe1-c4567f74c865",
+    "timestamp": "2026-03-05T14:10:01.437967",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "84f8697b-cd0b-4dfd-aec1-765b5158422b",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "84f8697b-cd0b-4dfd-aec1-765b5158422b",
+      "user_id": "buyer-1",
+      "crop": "Alphonso Mango",
+      "city": "Kolhapur",
+      "price_per_quintal": 7897.32,
+      "recorded_at": "2026-03-01T14:10:01.052259",
+      "created_at": "2026-03-01T14:10:01.052259"
+    }
+  },
+  {
+    "id": "a2132635-6b23-424f-b883-8c19cee908e7",
+    "timestamp": "2026-03-05T14:10:01.444519",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "daa058df-b958-4c21-ba2e-1440ba0b8dce",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "daa058df-b958-4c21-ba2e-1440ba0b8dce",
+      "user_id": "buyer-1",
+      "crop": "Onion",
+      "city": "Kolhapur",
+      "price_per_quintal": 1446.63,
+      "recorded_at": "2026-03-01T14:10:01.052259",
+      "created_at": "2026-03-01T14:10:01.052259"
+    }
+  },
+  {
+    "id": "5242df54-7883-41af-a616-65a9e4eb40e2",
+    "timestamp": "2026-03-05T14:10:01.450809",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "3a4dc8a2-0181-4785-8563-551548b36b10",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "3a4dc8a2-0181-4785-8563-551548b36b10",
+      "user_id": "buyer-1",
+      "crop": "Wheat",
+      "city": "Kolhapur",
+      "price_per_quintal": 2012.27,
+      "recorded_at": "2026-03-01T14:10:01.052259",
+      "created_at": "2026-03-01T14:10:01.052259"
+    }
+  },
+  {
+    "id": "b735d5ea-856a-4180-99b3-03ab988a8d65",
+    "timestamp": "2026-03-05T14:10:01.457077",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "28d600b4-0199-428a-b47a-05307b8afea3",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "28d600b4-0199-428a-b47a-05307b8afea3",
+      "user_id": "buyer-1",
+      "crop": "Pomegranate",
+      "city": "Kolhapur",
+      "price_per_quintal": 6525.48,
+      "recorded_at": "2026-03-01T14:10:01.052259",
+      "created_at": "2026-03-01T14:10:01.052259"
+    }
+  },
+  {
+    "id": "0c28e60f-0441-4ff3-919d-53cd6958b394",
+    "timestamp": "2026-03-05T14:10:01.463663",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "e7a9a5d8-11e0-4417-92de-6d85a1aa81fd",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "e7a9a5d8-11e0-4417-92de-6d85a1aa81fd",
+      "user_id": "buyer-1",
+      "crop": "Soybean",
+      "city": "Kolhapur",
+      "price_per_quintal": 4550.75,
+      "recorded_at": "2026-03-01T14:10:01.052259",
+      "created_at": "2026-03-01T14:10:01.052259"
+    }
+  },
+  {
+    "id": "5dbe27bd-7315-4472-96ca-3cdf15aac030",
+    "timestamp": "2026-03-05T14:10:01.470713",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "7670a4d3-d167-486d-bbe5-600ccfcf22e9",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "7670a4d3-d167-486d-bbe5-600ccfcf22e9",
+      "user_id": "buyer-2",
+      "crop": "Alphonso Mango",
+      "city": "Solapur",
+      "price_per_quintal": 8846.73,
+      "recorded_at": "2026-02-28T14:10:01.052259",
+      "created_at": "2026-02-28T14:10:01.052259"
+    }
+  },
+  {
+    "id": "f49c6679-82ce-419b-9b04-bd4de67e1e76",
+    "timestamp": "2026-03-05T14:10:01.476899",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "0681b808-d2a4-4069-9732-e4abab274c9e",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "0681b808-d2a4-4069-9732-e4abab274c9e",
+      "user_id": "buyer-2",
+      "crop": "Onion",
+      "city": "Solapur",
+      "price_per_quintal": 1599.4,
+      "recorded_at": "2026-02-28T14:10:01.052259",
+      "created_at": "2026-02-28T14:10:01.052259"
+    }
+  },
+  {
+    "id": "a00f9ea5-067a-4745-985b-c918736204c4",
+    "timestamp": "2026-03-05T14:10:01.483901",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "b1908897-8ebf-48b9-afbf-72acdb4b1819",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "b1908897-8ebf-48b9-afbf-72acdb4b1819",
+      "user_id": "buyer-2",
+      "crop": "Wheat",
+      "city": "Solapur",
+      "price_per_quintal": 1943.86,
+      "recorded_at": "2026-02-28T14:10:01.052259",
+      "created_at": "2026-02-28T14:10:01.052259"
+    }
+  },
+  {
+    "id": "e85db28b-807c-4dba-bdd2-fddb791c0daa",
+    "timestamp": "2026-03-05T14:10:01.490502",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "cb477c14-5c50-4d8c-aeb2-55f6f14eba1f",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "cb477c14-5c50-4d8c-aeb2-55f6f14eba1f",
+      "user_id": "buyer-2",
+      "crop": "Pomegranate",
+      "city": "Solapur",
+      "price_per_quintal": 7995.08,
+      "recorded_at": "2026-02-28T14:10:01.052259",
+      "created_at": "2026-02-28T14:10:01.052259"
+    }
+  },
+  {
+    "id": "0eb0cb2e-915b-4fac-92d8-e95aab945062",
+    "timestamp": "2026-03-05T14:10:01.497059",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "672bbe26-185d-4885-9f7c-11b328f31812",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "672bbe26-185d-4885-9f7c-11b328f31812",
+      "user_id": "buyer-2",
+      "crop": "Soybean",
+      "city": "Solapur",
+      "price_per_quintal": 4505.72,
+      "recorded_at": "2026-02-28T14:10:01.052259",
+      "created_at": "2026-02-28T14:10:01.052259"
+    }
+  },
+  {
+    "id": "f2417be2-ba7f-464d-b018-fa40463e1697",
+    "timestamp": "2026-03-05T14:10:01.503189",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "63a5eaf7-550b-4d23-927c-a03080dc5326",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "63a5eaf7-550b-4d23-927c-a03080dc5326",
+      "user_id": "buyer-3",
+      "crop": "Alphonso Mango",
+      "city": "Amravati",
+      "price_per_quintal": 7636.36,
+      "recorded_at": "2026-02-27T14:10:01.052259",
+      "created_at": "2026-02-27T14:10:01.052259"
+    }
+  },
+  {
+    "id": "2900ce27-96c7-4a42-8e59-2a19d04b3655",
+    "timestamp": "2026-03-05T14:10:01.510603",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "f392ed9c-4307-47fb-9a37-d7852afa35d4",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "f392ed9c-4307-47fb-9a37-d7852afa35d4",
+      "user_id": "buyer-3",
+      "crop": "Onion",
+      "city": "Amravati",
+      "price_per_quintal": 1247.12,
+      "recorded_at": "2026-02-27T14:10:01.052259",
+      "created_at": "2026-02-27T14:10:01.052259"
+    }
+  },
+  {
+    "id": "32d762d5-15c2-4dab-88fd-e170b6e4a371",
+    "timestamp": "2026-03-05T14:10:01.516970",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "7a4b30ad-7110-452d-af50-0c9c794967c8",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "7a4b30ad-7110-452d-af50-0c9c794967c8",
+      "user_id": "buyer-3",
+      "crop": "Wheat",
+      "city": "Amravati",
+      "price_per_quintal": 1921.93,
+      "recorded_at": "2026-02-27T14:10:01.052259",
+      "created_at": "2026-02-27T14:10:01.052259"
+    }
+  },
+  {
+    "id": "84a91116-bc66-4052-8fc3-7d2241664180",
+    "timestamp": "2026-03-05T14:10:01.523999",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "3b23df96-eb7c-48ed-a9f3-e75715c3f322",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "3b23df96-eb7c-48ed-a9f3-e75715c3f322",
+      "user_id": "buyer-3",
+      "crop": "Pomegranate",
+      "city": "Amravati",
+      "price_per_quintal": 7254.89,
+      "recorded_at": "2026-02-27T14:10:01.052259",
+      "created_at": "2026-02-27T14:10:01.052259"
+    }
+  },
+  {
+    "id": "f14b1130-fb31-4024-b143-3cdcfc976d36",
+    "timestamp": "2026-03-05T14:10:01.530451",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "b2b85bff-6576-4aaf-81a5-af6a88918099",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "b2b85bff-6576-4aaf-81a5-af6a88918099",
+      "user_id": "buyer-3",
+      "crop": "Soybean",
+      "city": "Amravati",
+      "price_per_quintal": 4675.25,
+      "recorded_at": "2026-02-27T14:10:01.052259",
+      "created_at": "2026-02-27T14:10:01.052259"
+    }
+  },
+  {
+    "id": "6b0b4e88-0f73-4245-ad01-89b05753e2eb",
+    "timestamp": "2026-03-05T14:10:01.537168",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "b6c4d028-1260-4221-8921-2b9e184418df",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "b6c4d028-1260-4221-8921-2b9e184418df",
+      "user_id": "buyer-4",
+      "crop": "Alphonso Mango",
+      "city": "Latur",
+      "price_per_quintal": 8133.24,
+      "recorded_at": "2026-02-26T14:10:01.052259",
+      "created_at": "2026-02-26T14:10:01.052259"
+    }
+  },
+  {
+    "id": "97fee188-6d09-4b84-8894-06ddf0135539",
+    "timestamp": "2026-03-05T14:10:01.544219",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "bdc22d4a-4fed-49fa-9981-8bb56a54b94c",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "bdc22d4a-4fed-49fa-9981-8bb56a54b94c",
+      "user_id": "buyer-4",
+      "crop": "Onion",
+      "city": "Latur",
+      "price_per_quintal": 1263.53,
+      "recorded_at": "2026-02-26T14:10:01.052259",
+      "created_at": "2026-02-26T14:10:01.052259"
+    }
+  },
+  {
+    "id": "db32e00a-5c78-4069-aeff-f59922ec7295",
+    "timestamp": "2026-03-05T14:10:01.551469",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "788351e2-4534-452e-8bc2-8c1ad5a87915",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "788351e2-4534-452e-8bc2-8c1ad5a87915",
+      "user_id": "buyer-4",
+      "crop": "Wheat",
+      "city": "Latur",
+      "price_per_quintal": 1976.32,
+      "recorded_at": "2026-02-26T14:10:01.052259",
+      "created_at": "2026-02-26T14:10:01.052259"
+    }
+  },
+  {
+    "id": "edadb7d8-f830-40e5-b561-2ccb350e7028",
+    "timestamp": "2026-03-05T14:10:01.558153",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "d920c19f-3a0e-4a98-9bcc-402fe358cd9e",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "d920c19f-3a0e-4a98-9bcc-402fe358cd9e",
+      "user_id": "buyer-4",
+      "crop": "Pomegranate",
+      "city": "Latur",
+      "price_per_quintal": 7992.24,
+      "recorded_at": "2026-02-26T14:10:01.052259",
+      "created_at": "2026-02-26T14:10:01.052259"
+    }
+  },
+  {
+    "id": "582011ed-352d-465e-b104-8da9af702e1d",
+    "timestamp": "2026-03-05T14:10:01.565086",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "07f61bf9-3b38-4d90-8045-0b9c24b573cc",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "07f61bf9-3b38-4d90-8045-0b9c24b573cc",
+      "user_id": "buyer-4",
+      "crop": "Soybean",
+      "city": "Latur",
+      "price_per_quintal": 4517.47,
+      "recorded_at": "2026-02-26T14:10:01.052259",
+      "created_at": "2026-02-26T14:10:01.052259"
+    }
+  },
+  {
+    "id": "63de8e9f-59a5-40bb-8000-a20bae30b6cf",
+    "timestamp": "2026-03-05T14:10:01.571953",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "d1430159-f00b-41b4-88b4-423bff84cdff",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "d1430159-f00b-41b4-88b4-423bff84cdff",
+      "user_id": "buyer-1",
+      "crop": "Alphonso Mango",
+      "city": "Pune",
+      "price_per_quintal": 8956.62,
+      "recorded_at": "2026-02-25T14:10:01.052259",
+      "created_at": "2026-02-25T14:10:01.052259"
+    }
+  },
+  {
+    "id": "7224a7c2-cf14-4fe4-a399-be41effc7d19",
+    "timestamp": "2026-03-05T14:10:01.578665",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "dcf87059-dcdc-4d40-a7ed-571d95324a66",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "dcf87059-dcdc-4d40-a7ed-571d95324a66",
+      "user_id": "buyer-1",
+      "crop": "Onion",
+      "city": "Pune",
+      "price_per_quintal": 2060.78,
+      "recorded_at": "2026-02-25T14:10:01.052259",
+      "created_at": "2026-02-25T14:10:01.052259"
+    }
+  },
+  {
+    "id": "592b7734-438e-4986-aa7c-7b8926bdd69c",
+    "timestamp": "2026-03-05T14:10:01.585113",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "294dd9b8-d279-4e5b-b7e4-9906d6f96aa2",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "294dd9b8-d279-4e5b-b7e4-9906d6f96aa2",
+      "user_id": "buyer-1",
+      "crop": "Wheat",
+      "city": "Pune",
+      "price_per_quintal": 1902.3,
+      "recorded_at": "2026-02-25T14:10:01.052259",
+      "created_at": "2026-02-25T14:10:01.052259"
+    }
+  },
+  {
+    "id": "eff179ad-e719-478a-83bf-854210be4a71",
+    "timestamp": "2026-03-05T14:10:01.592415",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "f0eae60d-d0c5-46b5-8f88-c0004cadff29",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "f0eae60d-d0c5-46b5-8f88-c0004cadff29",
+      "user_id": "buyer-1",
+      "crop": "Pomegranate",
+      "city": "Pune",
+      "price_per_quintal": 7441.44,
+      "recorded_at": "2026-02-25T14:10:01.052259",
+      "created_at": "2026-02-25T14:10:01.052259"
+    }
+  },
+  {
+    "id": "0e9b93a4-cd8d-4ca3-b0e5-a02fda951c05",
+    "timestamp": "2026-03-05T14:10:01.599562",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "08c736e1-585a-4a9c-ad99-a12eca59ce16",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "08c736e1-585a-4a9c-ad99-a12eca59ce16",
+      "user_id": "buyer-1",
+      "crop": "Soybean",
+      "city": "Pune",
+      "price_per_quintal": 4609.03,
+      "recorded_at": "2026-02-25T14:10:01.052259",
+      "created_at": "2026-02-25T14:10:01.052259"
+    }
+  },
+  {
+    "id": "d3534a6a-c2c8-49dd-be6b-2cf0a613da7c",
+    "timestamp": "2026-03-05T14:10:01.606462",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "4de9046a-977d-4194-99b2-0c94fa7bb989",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "4de9046a-977d-4194-99b2-0c94fa7bb989",
+      "user_id": "buyer-2",
+      "crop": "Alphonso Mango",
+      "city": "Nashik",
+      "price_per_quintal": 8305.46,
+      "recorded_at": "2026-02-24T14:10:01.052259",
+      "created_at": "2026-02-24T14:10:01.052259"
+    }
+  },
+  {
+    "id": "b1fe4841-8f64-4d34-a72a-ea18b1889eda",
+    "timestamp": "2026-03-05T14:10:01.613558",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "6b855c2f-7926-4488-9739-aa6298e4ca2f",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "6b855c2f-7926-4488-9739-aa6298e4ca2f",
+      "user_id": "buyer-2",
+      "crop": "Onion",
+      "city": "Nashik",
+      "price_per_quintal": 1466.83,
+      "recorded_at": "2026-02-24T14:10:01.052259",
+      "created_at": "2026-02-24T14:10:01.052259"
+    }
+  },
+  {
+    "id": "7db79198-9165-4b66-b40a-f14b1b934a50",
+    "timestamp": "2026-03-05T14:10:01.620140",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "d53af393-8ac9-484e-9948-4091fd4d9a43",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "d53af393-8ac9-484e-9948-4091fd4d9a43",
+      "user_id": "buyer-2",
+      "crop": "Wheat",
+      "city": "Nashik",
+      "price_per_quintal": 2028.19,
+      "recorded_at": "2026-02-24T14:10:01.052259",
+      "created_at": "2026-02-24T14:10:01.052259"
+    }
+  },
+  {
+    "id": "8cf8d440-e588-48ad-9623-81f00d5e90ad",
+    "timestamp": "2026-03-05T14:10:01.627214",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "60407088-83ee-4863-9c7c-ebb0f90fdf19",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "60407088-83ee-4863-9c7c-ebb0f90fdf19",
+      "user_id": "buyer-2",
+      "crop": "Pomegranate",
+      "city": "Nashik",
+      "price_per_quintal": 6223.1,
+      "recorded_at": "2026-02-24T14:10:01.052259",
+      "created_at": "2026-02-24T14:10:01.052259"
+    }
+  },
+  {
+    "id": "bf4c8498-40b0-4823-84e7-d8ea38d28cad",
+    "timestamp": "2026-03-05T14:10:01.634806",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "0af0607b-81db-45c0-aa20-00d65b6cdcea",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "0af0607b-81db-45c0-aa20-00d65b6cdcea",
+      "user_id": "buyer-2",
+      "crop": "Soybean",
+      "city": "Nashik",
+      "price_per_quintal": 4460.86,
+      "recorded_at": "2026-02-24T14:10:01.052259",
+      "created_at": "2026-02-24T14:10:01.052259"
+    }
+  },
+  {
+    "id": "b889186b-c6a7-4f2f-b872-febe9436c554",
+    "timestamp": "2026-03-05T14:10:01.641739",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "940ea438-04f2-4d8a-bb39-875c10f90b9d",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "940ea438-04f2-4d8a-bb39-875c10f90b9d",
+      "user_id": "buyer-3",
+      "crop": "Alphonso Mango",
+      "city": "Nagpur",
+      "price_per_quintal": 8180.59,
+      "recorded_at": "2026-02-23T14:10:01.052259",
+      "created_at": "2026-02-23T14:10:01.052259"
+    }
+  },
+  {
+    "id": "89be0b86-0343-41b1-a357-7f648ebb520b",
+    "timestamp": "2026-03-05T14:10:01.648818",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "9553be2d-5639-4e49-a892-18b6162b726e",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "9553be2d-5639-4e49-a892-18b6162b726e",
+      "user_id": "buyer-3",
+      "crop": "Onion",
+      "city": "Nagpur",
+      "price_per_quintal": 2153.82,
+      "recorded_at": "2026-02-23T14:10:01.052259",
+      "created_at": "2026-02-23T14:10:01.052259"
+    }
+  },
+  {
+    "id": "46550cb5-ae96-426c-97fd-410056c20d7b",
+    "timestamp": "2026-03-05T14:10:01.655813",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "63c76d46-b81a-4f8c-a0ac-7852dcbc9c06",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "63c76d46-b81a-4f8c-a0ac-7852dcbc9c06",
+      "user_id": "buyer-3",
+      "crop": "Wheat",
+      "city": "Nagpur",
+      "price_per_quintal": 2075.17,
+      "recorded_at": "2026-02-23T14:10:01.052259",
+      "created_at": "2026-02-23T14:10:01.052259"
+    }
+  },
+  {
+    "id": "d18bca92-b150-4573-b3d8-53c0c3f9c0b1",
+    "timestamp": "2026-03-05T14:10:01.663292",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "38ad3dcd-6afc-4a3a-aec7-d309e34bd932",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "38ad3dcd-6afc-4a3a-aec7-d309e34bd932",
+      "user_id": "buyer-3",
+      "crop": "Pomegranate",
+      "city": "Nagpur",
+      "price_per_quintal": 6526.78,
+      "recorded_at": "2026-02-23T14:10:01.052259",
+      "created_at": "2026-02-23T14:10:01.052259"
+    }
+  },
+  {
+    "id": "19d900c0-4bd0-4c07-99a1-5936622c7170",
+    "timestamp": "2026-03-05T14:10:01.670258",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "efe024f4-706a-4a2d-b4cb-1b7ea5ed5488",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "efe024f4-706a-4a2d-b4cb-1b7ea5ed5488",
+      "user_id": "buyer-3",
+      "crop": "Soybean",
+      "city": "Nagpur",
+      "price_per_quintal": 4500.35,
+      "recorded_at": "2026-02-23T14:10:01.052259",
+      "created_at": "2026-02-23T14:10:01.052259"
+    }
+  },
+  {
+    "id": "4176bb42-aa36-4c76-8146-a5310ad0f666",
+    "timestamp": "2026-03-05T14:10:01.677847",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "04ca52c7-229e-4e0e-8572-65b6dc17c1c6",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "04ca52c7-229e-4e0e-8572-65b6dc17c1c6",
+      "user_id": "buyer-4",
+      "crop": "Alphonso Mango",
+      "city": "Aurangabad",
+      "price_per_quintal": 7767.98,
+      "recorded_at": "2026-02-22T14:10:01.052259",
+      "created_at": "2026-02-22T14:10:01.052259"
+    }
+  },
+  {
+    "id": "d0c09f23-ce56-4b82-bcc1-01bdf92bb2f2",
+    "timestamp": "2026-03-05T14:10:01.685046",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "d1080fb8-f132-456e-9fb4-bf92dacf8d14",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "d1080fb8-f132-456e-9fb4-bf92dacf8d14",
+      "user_id": "buyer-4",
+      "crop": "Onion",
+      "city": "Aurangabad",
+      "price_per_quintal": 2112.63,
+      "recorded_at": "2026-02-22T14:10:01.052259",
+      "created_at": "2026-02-22T14:10:01.052259"
+    }
+  },
+  {
+    "id": "911df616-0b18-41ca-8774-0d6ce9b71f18",
+    "timestamp": "2026-03-05T14:10:01.692327",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "2d9cea97-99c2-4d97-bfc3-fd9de705dbc7",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "2d9cea97-99c2-4d97-bfc3-fd9de705dbc7",
+      "user_id": "buyer-4",
+      "crop": "Wheat",
+      "city": "Aurangabad",
+      "price_per_quintal": 2074.1,
+      "recorded_at": "2026-02-22T14:10:01.052259",
+      "created_at": "2026-02-22T14:10:01.052259"
+    }
+  },
+  {
+    "id": "0905ba2d-99ab-4e02-a800-95e7f73bbc43",
+    "timestamp": "2026-03-05T14:10:01.699656",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "387c4679-ca5d-4e6d-8bab-d825a964abf1",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "387c4679-ca5d-4e6d-8bab-d825a964abf1",
+      "user_id": "buyer-4",
+      "crop": "Pomegranate",
+      "city": "Aurangabad",
+      "price_per_quintal": 6596.89,
+      "recorded_at": "2026-02-22T14:10:01.052259",
+      "created_at": "2026-02-22T14:10:01.052259"
+    }
+  },
+  {
+    "id": "72ae36c3-f3e5-4492-b088-d593181658be",
+    "timestamp": "2026-03-05T14:10:01.707058",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "c80ca456-563e-47cd-939e-0aa03ffa9675",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "c80ca456-563e-47cd-939e-0aa03ffa9675",
+      "user_id": "buyer-4",
+      "crop": "Soybean",
+      "city": "Aurangabad",
+      "price_per_quintal": 4583.37,
+      "recorded_at": "2026-02-22T14:10:01.052259",
+      "created_at": "2026-02-22T14:10:01.052259"
+    }
+  },
+  {
+    "id": "33a903e0-04fd-4a76-ac00-4f04dd85e7cb",
+    "timestamp": "2026-03-05T14:10:01.714823",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "48660790-132a-4e0a-a3e2-235b66cc630c",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "48660790-132a-4e0a-a3e2-235b66cc630c",
+      "user_id": "buyer-1",
+      "crop": "Alphonso Mango",
+      "city": "Kolhapur",
+      "price_per_quintal": 8413.46,
+      "recorded_at": "2026-02-21T14:10:01.052259",
+      "created_at": "2026-02-21T14:10:01.052259"
+    }
+  },
+  {
+    "id": "70effb8a-e526-4dba-a887-123eef425551",
+    "timestamp": "2026-03-05T14:10:01.722129",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "48f68184-72a9-4e7d-af7e-a536b6e7427a",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "48f68184-72a9-4e7d-af7e-a536b6e7427a",
+      "user_id": "buyer-1",
+      "crop": "Onion",
+      "city": "Kolhapur",
+      "price_per_quintal": 1352.84,
+      "recorded_at": "2026-02-21T14:10:01.052259",
+      "created_at": "2026-02-21T14:10:01.052259"
+    }
+  },
+  {
+    "id": "159e84b0-e30b-49ea-a977-f1a78bfc0211",
+    "timestamp": "2026-03-05T14:10:01.729367",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "6efacf03-e026-423e-a4d8-e143a163ed1d",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "6efacf03-e026-423e-a4d8-e143a163ed1d",
+      "user_id": "buyer-1",
+      "crop": "Wheat",
+      "city": "Kolhapur",
+      "price_per_quintal": 2052.5,
+      "recorded_at": "2026-02-21T14:10:01.052259",
+      "created_at": "2026-02-21T14:10:01.052259"
+    }
+  },
+  {
+    "id": "dec0e309-343d-46bd-b042-2009de7ed6fe",
+    "timestamp": "2026-03-05T14:10:01.736641",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "1841c43c-fd0c-4a0e-9871-deb7d265b293",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "1841c43c-fd0c-4a0e-9871-deb7d265b293",
+      "user_id": "buyer-1",
+      "crop": "Pomegranate",
+      "city": "Kolhapur",
+      "price_per_quintal": 7078.76,
+      "recorded_at": "2026-02-21T14:10:01.052259",
+      "created_at": "2026-02-21T14:10:01.052259"
+    }
+  },
+  {
+    "id": "638fcc35-edd3-4640-88bd-95b8bab07556",
+    "timestamp": "2026-03-05T14:10:01.745732",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "bec10798-b509-414e-b3d3-a1d2703d380e",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "bec10798-b509-414e-b3d3-a1d2703d380e",
+      "user_id": "buyer-1",
+      "crop": "Soybean",
+      "city": "Kolhapur",
+      "price_per_quintal": 4667.18,
+      "recorded_at": "2026-02-21T14:10:01.052259",
+      "created_at": "2026-02-21T14:10:01.052259"
+    }
+  },
+  {
+    "id": "e480c62e-3fe0-4caf-933b-f218d198faaa",
+    "timestamp": "2026-03-05T14:10:01.753562",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "05596be8-5ca6-4668-b645-6b5b27336030",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "05596be8-5ca6-4668-b645-6b5b27336030",
+      "user_id": "buyer-2",
+      "crop": "Alphonso Mango",
+      "city": "Solapur",
+      "price_per_quintal": 8295.53,
+      "recorded_at": "2026-02-20T14:10:01.052259",
+      "created_at": "2026-02-20T14:10:01.052259"
+    }
+  },
+  {
+    "id": "08b8afd3-e659-4875-89fb-53c25ca68b87",
+    "timestamp": "2026-03-05T14:10:01.761206",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "5476b048-770c-4a09-a110-3bbb27296477",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "5476b048-770c-4a09-a110-3bbb27296477",
+      "user_id": "buyer-2",
+      "crop": "Onion",
+      "city": "Solapur",
+      "price_per_quintal": 1200.57,
+      "recorded_at": "2026-02-20T14:10:01.052259",
+      "created_at": "2026-02-20T14:10:01.052259"
+    }
+  },
+  {
+    "id": "13f64da4-afb5-414d-8619-10ef1f1614f8",
+    "timestamp": "2026-03-05T14:10:01.768865",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "95d6bb84-cee3-4a1f-89ef-acf69baf8c30",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "95d6bb84-cee3-4a1f-89ef-acf69baf8c30",
+      "user_id": "buyer-2",
+      "crop": "Wheat",
+      "city": "Solapur",
+      "price_per_quintal": 1964.83,
+      "recorded_at": "2026-02-20T14:10:01.052259",
+      "created_at": "2026-02-20T14:10:01.052259"
+    }
+  },
+  {
+    "id": "3c3aace8-011b-4270-924c-d414b67d716c",
+    "timestamp": "2026-03-05T14:10:01.776430",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "23a3e374-c386-4e37-b2e6-f47b0d61eae7",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "23a3e374-c386-4e37-b2e6-f47b0d61eae7",
+      "user_id": "buyer-2",
+      "crop": "Pomegranate",
+      "city": "Solapur",
+      "price_per_quintal": 6038.95,
+      "recorded_at": "2026-02-20T14:10:01.052259",
+      "created_at": "2026-02-20T14:10:01.052259"
+    }
+  },
+  {
+    "id": "85639567-e7c5-49ac-8118-c4e3b0ddb031",
+    "timestamp": "2026-03-05T14:10:01.784891",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "cd5bda1a-c328-4217-8446-b6d264eb3ea6",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "cd5bda1a-c328-4217-8446-b6d264eb3ea6",
+      "user_id": "buyer-2",
+      "crop": "Soybean",
+      "city": "Solapur",
+      "price_per_quintal": 4757.46,
+      "recorded_at": "2026-02-20T14:10:01.052259",
+      "created_at": "2026-02-20T14:10:01.052259"
+    }
+  },
+  {
+    "id": "b9d4f715-a8f6-43f1-a077-0452ad9d5077",
+    "timestamp": "2026-03-05T14:10:01.792944",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "2702388b-aaa5-4ff5-844e-7bb26374f4e1",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "2702388b-aaa5-4ff5-844e-7bb26374f4e1",
+      "user_id": "buyer-3",
+      "crop": "Alphonso Mango",
+      "city": "Amravati",
+      "price_per_quintal": 8818.08,
+      "recorded_at": "2026-02-19T14:10:01.052259",
+      "created_at": "2026-02-19T14:10:01.052259"
+    }
+  },
+  {
+    "id": "d7fa36b2-c70e-4b25-b4a4-43a5bfd11ffb",
+    "timestamp": "2026-03-05T14:10:01.801907",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "573305b7-72ce-4a6c-86bc-36561ab9c7ff",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "573305b7-72ce-4a6c-86bc-36561ab9c7ff",
+      "user_id": "buyer-3",
+      "crop": "Onion",
+      "city": "Amravati",
+      "price_per_quintal": 2031.67,
+      "recorded_at": "2026-02-19T14:10:01.052259",
+      "created_at": "2026-02-19T14:10:01.052259"
+    }
+  },
+  {
+    "id": "273f38b6-7c24-4edb-a2ae-6bfe3e4d057a",
+    "timestamp": "2026-03-05T14:10:01.809343",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "6b9890da-ed66-42f0-b0b0-8f6bda578a28",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "6b9890da-ed66-42f0-b0b0-8f6bda578a28",
+      "user_id": "buyer-3",
+      "crop": "Wheat",
+      "city": "Amravati",
+      "price_per_quintal": 1961.5,
+      "recorded_at": "2026-02-19T14:10:01.052259",
+      "created_at": "2026-02-19T14:10:01.052259"
+    }
+  },
+  {
+    "id": "40f21513-00a2-415e-9153-8142388e2578",
+    "timestamp": "2026-03-05T14:10:01.817003",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "e7c3efe6-c808-432c-80ec-e2a5e7825139",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "e7c3efe6-c808-432c-80ec-e2a5e7825139",
+      "user_id": "buyer-3",
+      "crop": "Pomegranate",
+      "city": "Amravati",
+      "price_per_quintal": 6115.85,
+      "recorded_at": "2026-02-19T14:10:01.052259",
+      "created_at": "2026-02-19T14:10:01.052259"
+    }
+  },
+  {
+    "id": "905af759-c69c-4fc6-ac61-75c9ba903621",
+    "timestamp": "2026-03-05T14:10:01.824595",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "965f5d9f-fe0a-4e78-817f-a219f152bf39",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "965f5d9f-fe0a-4e78-817f-a219f152bf39",
+      "user_id": "buyer-3",
+      "crop": "Soybean",
+      "city": "Amravati",
+      "price_per_quintal": 4726.81,
+      "recorded_at": "2026-02-19T14:10:01.052259",
+      "created_at": "2026-02-19T14:10:01.052259"
+    }
+  },
+  {
+    "id": "321a8fff-cfca-44f8-9c75-dc0846e38c21",
+    "timestamp": "2026-03-05T14:10:01.832448",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "03ea9fbb-15c2-486a-87bf-0462f40dde24",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "03ea9fbb-15c2-486a-87bf-0462f40dde24",
+      "user_id": "buyer-4",
+      "crop": "Alphonso Mango",
+      "city": "Latur",
+      "price_per_quintal": 8920.42,
+      "recorded_at": "2026-02-18T14:10:01.052259",
+      "created_at": "2026-02-18T14:10:01.052259"
+    }
+  },
+  {
+    "id": "9b9ca77b-2507-4d8a-a759-35c36b9aeaaf",
+    "timestamp": "2026-03-05T14:10:01.840647",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "44fd6993-39ef-4b13-98a2-827ae44a13d1",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "44fd6993-39ef-4b13-98a2-827ae44a13d1",
+      "user_id": "buyer-4",
+      "crop": "Onion",
+      "city": "Latur",
+      "price_per_quintal": 1285.65,
+      "recorded_at": "2026-02-18T14:10:01.052259",
+      "created_at": "2026-02-18T14:10:01.052259"
+    }
+  },
+  {
+    "id": "28c1b485-e88a-4ce2-b60b-4dcf50a3c5c0",
+    "timestamp": "2026-03-05T14:10:01.848300",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "054e67b9-e8eb-42a3-ac03-88b4402cddcb",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "054e67b9-e8eb-42a3-ac03-88b4402cddcb",
+      "user_id": "buyer-4",
+      "crop": "Wheat",
+      "city": "Latur",
+      "price_per_quintal": 1997.2,
+      "recorded_at": "2026-02-18T14:10:01.052259",
+      "created_at": "2026-02-18T14:10:01.052259"
+    }
+  },
+  {
+    "id": "36165f5f-fd7c-4e95-91e8-4da275645e9e",
+    "timestamp": "2026-03-05T14:10:01.856531",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "80f0eac2-fc8d-49b1-9499-c1e08242606f",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "80f0eac2-fc8d-49b1-9499-c1e08242606f",
+      "user_id": "buyer-4",
+      "crop": "Pomegranate",
+      "city": "Latur",
+      "price_per_quintal": 6138.43,
+      "recorded_at": "2026-02-18T14:10:01.052259",
+      "created_at": "2026-02-18T14:10:01.052259"
+    }
+  },
+  {
+    "id": "f0fd9e14-dd78-489e-9a81-45de96fdd9f5",
+    "timestamp": "2026-03-05T14:10:01.864533",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "0c42cc9c-270d-4158-b66c-1be47aaf0083",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "0c42cc9c-270d-4158-b66c-1be47aaf0083",
+      "user_id": "buyer-4",
+      "crop": "Soybean",
+      "city": "Latur",
+      "price_per_quintal": 4656.36,
+      "recorded_at": "2026-02-18T14:10:01.052259",
+      "created_at": "2026-02-18T14:10:01.052259"
+    }
+  },
+  {
+    "id": "8abc5797-c348-46e5-8e57-39f347dd5c9d",
+    "timestamp": "2026-03-05T14:10:01.872754",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "df78d488-2ca6-4c81-a261-13f68ae83151",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "df78d488-2ca6-4c81-a261-13f68ae83151",
+      "user_id": "buyer-1",
+      "crop": "Alphonso Mango",
+      "city": "Pune",
+      "price_per_quintal": 8648.75,
+      "recorded_at": "2026-02-17T14:10:01.052259",
+      "created_at": "2026-02-17T14:10:01.052259"
+    }
+  },
+  {
+    "id": "3bd1c59a-456d-429d-9682-040e31008c20",
+    "timestamp": "2026-03-05T14:10:01.881442",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "44dbceff-cde4-499f-82b4-bbea53661119",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "44dbceff-cde4-499f-82b4-bbea53661119",
+      "user_id": "buyer-1",
+      "crop": "Onion",
+      "city": "Pune",
+      "price_per_quintal": 1328.39,
+      "recorded_at": "2026-02-17T14:10:01.052259",
+      "created_at": "2026-02-17T14:10:01.052259"
+    }
+  },
+  {
+    "id": "ca5078c9-da8e-42d6-87fd-7c3b0692a9ee",
+    "timestamp": "2026-03-05T14:10:01.889638",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "5e0c8dd1-bcb6-4e9d-b1d7-72002d783f3e",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "5e0c8dd1-bcb6-4e9d-b1d7-72002d783f3e",
+      "user_id": "buyer-1",
+      "crop": "Wheat",
+      "city": "Pune",
+      "price_per_quintal": 1995.06,
+      "recorded_at": "2026-02-17T14:10:01.052259",
+      "created_at": "2026-02-17T14:10:01.052259"
+    }
+  },
+  {
+    "id": "19f20f00-144d-4523-8c23-c2f335ecd6f7",
+    "timestamp": "2026-03-05T14:10:01.897580",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "c1634eff-5630-4980-a5e7-9a1659c915a5",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "c1634eff-5630-4980-a5e7-9a1659c915a5",
+      "user_id": "buyer-1",
+      "crop": "Pomegranate",
+      "city": "Pune",
+      "price_per_quintal": 7099.61,
+      "recorded_at": "2026-02-17T14:10:01.052259",
+      "created_at": "2026-02-17T14:10:01.052259"
+    }
+  },
+  {
+    "id": "6ba57d57-6ad3-462c-bdc1-17078d7553b2",
+    "timestamp": "2026-03-05T14:10:01.905443",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "ef81d1fc-ef08-471f-ab27-f541feb64e6d",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "ef81d1fc-ef08-471f-ab27-f541feb64e6d",
+      "user_id": "buyer-1",
+      "crop": "Soybean",
+      "city": "Pune",
+      "price_per_quintal": 4359.03,
+      "recorded_at": "2026-02-17T14:10:01.052259",
+      "created_at": "2026-02-17T14:10:01.052259"
+    }
+  },
+  {
+    "id": "9fae7c24-4415-425e-b422-179e2dde7312",
+    "timestamp": "2026-03-05T14:10:01.913894",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "cf5e8c32-4f12-4c2f-b760-173371b217c4",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "cf5e8c32-4f12-4c2f-b760-173371b217c4",
+      "user_id": "buyer-2",
+      "crop": "Alphonso Mango",
+      "city": "Nashik",
+      "price_per_quintal": 8808.65,
+      "recorded_at": "2026-02-16T14:10:01.052259",
+      "created_at": "2026-02-16T14:10:01.052259"
+    }
+  },
+  {
+    "id": "34da8a47-6f8a-447d-9bf9-dc62cca8eb99",
+    "timestamp": "2026-03-05T14:10:01.922142",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "b25da73d-2c3c-4854-a14f-7c1d2fabc512",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "b25da73d-2c3c-4854-a14f-7c1d2fabc512",
+      "user_id": "buyer-2",
+      "crop": "Onion",
+      "city": "Nashik",
+      "price_per_quintal": 1623.14,
+      "recorded_at": "2026-02-16T14:10:01.052259",
+      "created_at": "2026-02-16T14:10:01.052259"
+    }
+  },
+  {
+    "id": "7f4e524d-9257-4223-827a-ad8cda7bd4ef",
+    "timestamp": "2026-03-05T14:10:01.930585",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "4f63b83e-5d99-48f8-9982-8b5abc385290",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "4f63b83e-5d99-48f8-9982-8b5abc385290",
+      "user_id": "buyer-2",
+      "crop": "Wheat",
+      "city": "Nashik",
+      "price_per_quintal": 1942.36,
+      "recorded_at": "2026-02-16T14:10:01.052259",
+      "created_at": "2026-02-16T14:10:01.052259"
+    }
+  },
+  {
+    "id": "8ef85292-276b-49f0-b766-3c02a7479b61",
+    "timestamp": "2026-03-05T14:10:01.938589",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "6873670a-6a2f-47f4-a87e-0a354177c38d",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "6873670a-6a2f-47f4-a87e-0a354177c38d",
+      "user_id": "buyer-2",
+      "crop": "Pomegranate",
+      "city": "Nashik",
+      "price_per_quintal": 7078.59,
+      "recorded_at": "2026-02-16T14:10:01.052259",
+      "created_at": "2026-02-16T14:10:01.052259"
+    }
+  },
+  {
+    "id": "704e9d41-78b3-4681-a136-85042f5e4833",
+    "timestamp": "2026-03-05T14:10:01.946491",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "6f23934d-40ee-4e2d-8831-f760c526ce12",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "6f23934d-40ee-4e2d-8831-f760c526ce12",
+      "user_id": "buyer-2",
+      "crop": "Soybean",
+      "city": "Nashik",
+      "price_per_quintal": 4637.96,
+      "recorded_at": "2026-02-16T14:10:01.052259",
+      "created_at": "2026-02-16T14:10:01.052259"
+    }
+  },
+  {
+    "id": "9e2b15d6-f869-4801-81db-b5cb59274bcc",
+    "timestamp": "2026-03-05T14:10:01.954663",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "6bfc2428-9257-4108-8c4d-f26f4f173594",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "6bfc2428-9257-4108-8c4d-f26f4f173594",
+      "user_id": "buyer-3",
+      "crop": "Alphonso Mango",
+      "city": "Nagpur",
+      "price_per_quintal": 7801.73,
+      "recorded_at": "2026-02-15T14:10:01.052259",
+      "created_at": "2026-02-15T14:10:01.052259"
+    }
+  },
+  {
+    "id": "103b1339-30e4-46b6-8c14-2e87389fe72c",
+    "timestamp": "2026-03-05T14:10:01.963476",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "ec22582c-1e8c-43b6-a70e-e8bab0ee8ecd",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "ec22582c-1e8c-43b6-a70e-e8bab0ee8ecd",
+      "user_id": "buyer-3",
+      "crop": "Onion",
+      "city": "Nagpur",
+      "price_per_quintal": 1511.72,
+      "recorded_at": "2026-02-15T14:10:01.052259",
+      "created_at": "2026-02-15T14:10:01.052259"
+    }
+  },
+  {
+    "id": "058753e6-7527-4798-a338-0e8390e12324",
+    "timestamp": "2026-03-05T14:10:01.971531",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "38944749-53fc-4ac6-86bf-b88e7a91d715",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "38944749-53fc-4ac6-86bf-b88e7a91d715",
+      "user_id": "buyer-3",
+      "crop": "Wheat",
+      "city": "Nagpur",
+      "price_per_quintal": 2099.03,
+      "recorded_at": "2026-02-15T14:10:01.052259",
+      "created_at": "2026-02-15T14:10:01.052259"
+    }
+  },
+  {
+    "id": "8ee74b87-6b90-46e7-86d0-b84741985724",
+    "timestamp": "2026-03-05T14:10:01.979683",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "93ddf28f-c693-4a7d-9667-d363133c58ac",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "93ddf28f-c693-4a7d-9667-d363133c58ac",
+      "user_id": "buyer-3",
+      "crop": "Pomegranate",
+      "city": "Nagpur",
+      "price_per_quintal": 7299.76,
+      "recorded_at": "2026-02-15T14:10:01.052259",
+      "created_at": "2026-02-15T14:10:01.052259"
+    }
+  },
+  {
+    "id": "c3ab7acd-2cac-4b12-8f1c-f162df37e7ac",
+    "timestamp": "2026-03-05T14:10:01.987971",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "0921cf3f-b766-40e5-9ba8-98ce8cc53b64",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "0921cf3f-b766-40e5-9ba8-98ce8cc53b64",
+      "user_id": "buyer-3",
+      "crop": "Soybean",
+      "city": "Nagpur",
+      "price_per_quintal": 4462.86,
+      "recorded_at": "2026-02-15T14:10:01.052259",
+      "created_at": "2026-02-15T14:10:01.052259"
+    }
+  },
+  {
+    "id": "35b1a629-1f85-4269-afe4-2b8deaaf9741",
+    "timestamp": "2026-03-05T14:10:01.996447",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "6e449e14-231d-45d2-b15b-dc1fbf13a54e",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "6e449e14-231d-45d2-b15b-dc1fbf13a54e",
+      "user_id": "buyer-4",
+      "crop": "Alphonso Mango",
+      "city": "Aurangabad",
+      "price_per_quintal": 8276.36,
+      "recorded_at": "2026-02-14T14:10:01.052259",
+      "created_at": "2026-02-14T14:10:01.052259"
+    }
+  },
+  {
+    "id": "e3d9281b-dbc9-42a0-ac6b-08cb4ddcd788",
+    "timestamp": "2026-03-05T14:10:02.005392",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "6a8eb9eb-4311-42b7-9ac3-26cf375f9e7a",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "6a8eb9eb-4311-42b7-9ac3-26cf375f9e7a",
+      "user_id": "buyer-4",
+      "crop": "Onion",
+      "city": "Aurangabad",
+      "price_per_quintal": 1321.0,
+      "recorded_at": "2026-02-14T14:10:01.052259",
+      "created_at": "2026-02-14T14:10:01.052259"
+    }
+  },
+  {
+    "id": "b5f029ad-63bf-489f-8e4c-1c89f7996e4b",
+    "timestamp": "2026-03-05T14:10:02.014082",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "5ce7b229-25af-4ad3-b537-c78803088320",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "5ce7b229-25af-4ad3-b537-c78803088320",
+      "user_id": "buyer-4",
+      "crop": "Wheat",
+      "city": "Aurangabad",
+      "price_per_quintal": 1944.94,
+      "recorded_at": "2026-02-14T14:10:01.052259",
+      "created_at": "2026-02-14T14:10:01.052259"
+    }
+  },
+  {
+    "id": "10c711e0-1a15-4f02-8744-f34bbfd0e80b",
+    "timestamp": "2026-03-05T14:10:02.021976",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "8b8197c8-993e-4157-b1db-241d2ae0d0b5",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "8b8197c8-993e-4157-b1db-241d2ae0d0b5",
+      "user_id": "buyer-4",
+      "crop": "Pomegranate",
+      "city": "Aurangabad",
+      "price_per_quintal": 6676.17,
+      "recorded_at": "2026-02-14T14:10:01.052259",
+      "created_at": "2026-02-14T14:10:01.052259"
+    }
+  },
+  {
+    "id": "1469a672-5451-4c4b-b582-4c7a1149d9ff",
+    "timestamp": "2026-03-05T14:10:02.030554",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "e99f2895-cbd7-4006-a7f9-34c5d9ea05a4",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "e99f2895-cbd7-4006-a7f9-34c5d9ea05a4",
+      "user_id": "buyer-4",
+      "crop": "Soybean",
+      "city": "Aurangabad",
+      "price_per_quintal": 4552.99,
+      "recorded_at": "2026-02-14T14:10:01.052259",
+      "created_at": "2026-02-14T14:10:01.052259"
+    }
+  },
+  {
+    "id": "6f7881df-54f8-42a2-a0dd-451e92bc6e83",
+    "timestamp": "2026-03-05T14:10:02.038742",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "150fa8aa-ecfa-4bb5-b5fc-d5dbe6612df9",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "150fa8aa-ecfa-4bb5-b5fc-d5dbe6612df9",
+      "user_id": "buyer-1",
+      "crop": "Alphonso Mango",
+      "city": "Kolhapur",
+      "price_per_quintal": 7845.17,
+      "recorded_at": "2026-02-13T14:10:01.052259",
+      "created_at": "2026-02-13T14:10:01.052259"
+    }
+  },
+  {
+    "id": "ab9efcae-49f6-42ec-b77d-086e105f31ef",
+    "timestamp": "2026-03-05T14:10:02.047716",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "276919b7-3b65-4391-a2fe-506c99113c10",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "276919b7-3b65-4391-a2fe-506c99113c10",
+      "user_id": "buyer-1",
+      "crop": "Onion",
+      "city": "Kolhapur",
+      "price_per_quintal": 1420.22,
+      "recorded_at": "2026-02-13T14:10:01.052259",
+      "created_at": "2026-02-13T14:10:01.052259"
+    }
+  },
+  {
+    "id": "b8b88f33-5997-4921-9787-50eafecc7c9d",
+    "timestamp": "2026-03-05T14:10:02.055897",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "20b55848-fd97-484f-b363-bb5d1cd1fc12",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "20b55848-fd97-484f-b363-bb5d1cd1fc12",
+      "user_id": "buyer-1",
+      "crop": "Wheat",
+      "city": "Kolhapur",
+      "price_per_quintal": 1914.2,
+      "recorded_at": "2026-02-13T14:10:01.052259",
+      "created_at": "2026-02-13T14:10:01.052259"
+    }
+  },
+  {
+    "id": "11049fc0-366f-4d7d-a2e0-de38bc6eed18",
+    "timestamp": "2026-03-05T14:10:02.064492",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "0ab8f8d8-cfb6-4751-8fb3-2d8a1705f3f6",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "0ab8f8d8-cfb6-4751-8fb3-2d8a1705f3f6",
+      "user_id": "buyer-1",
+      "crop": "Pomegranate",
+      "city": "Kolhapur",
+      "price_per_quintal": 7262.21,
+      "recorded_at": "2026-02-13T14:10:01.052259",
+      "created_at": "2026-02-13T14:10:01.052259"
+    }
+  },
+  {
+    "id": "e3e4855c-1c51-4ed6-bd30-4f58f9a8b73c",
+    "timestamp": "2026-03-05T14:10:02.072947",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "acedb0d3-4809-4b5a-8333-52b3ab252d73",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "acedb0d3-4809-4b5a-8333-52b3ab252d73",
+      "user_id": "buyer-1",
+      "crop": "Soybean",
+      "city": "Kolhapur",
+      "price_per_quintal": 4337.37,
+      "recorded_at": "2026-02-13T14:10:01.052259",
+      "created_at": "2026-02-13T14:10:01.052259"
+    }
+  },
+  {
+    "id": "0485fa1b-620e-4cfb-a7f0-5782a8efa6a9",
+    "timestamp": "2026-03-05T14:10:02.081610",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "32620d7d-f1da-4734-af56-a8e5abaa60f0",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "32620d7d-f1da-4734-af56-a8e5abaa60f0",
+      "user_id": "buyer-2",
+      "crop": "Alphonso Mango",
+      "city": "Solapur",
+      "price_per_quintal": 8858.13,
+      "recorded_at": "2026-02-12T14:10:01.052259",
+      "created_at": "2026-02-12T14:10:01.052259"
+    }
+  },
+  {
+    "id": "15b920b7-2b32-42d5-80a2-e4164b84f0ad",
+    "timestamp": "2026-03-05T14:10:02.090514",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "cbb574f5-16bc-4978-b297-a5df40fff1ca",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "cbb574f5-16bc-4978-b297-a5df40fff1ca",
+      "user_id": "buyer-2",
+      "crop": "Onion",
+      "city": "Solapur",
+      "price_per_quintal": 2059.64,
+      "recorded_at": "2026-02-12T14:10:01.052259",
+      "created_at": "2026-02-12T14:10:01.052259"
+    }
+  },
+  {
+    "id": "6648784d-7b7c-4058-b896-2492bcd89b16",
+    "timestamp": "2026-03-05T14:10:02.099474",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "fbe69914-91d3-43b0-a9bd-5cbdd917a101",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "fbe69914-91d3-43b0-a9bd-5cbdd917a101",
+      "user_id": "buyer-2",
+      "crop": "Wheat",
+      "city": "Solapur",
+      "price_per_quintal": 1914.17,
+      "recorded_at": "2026-02-12T14:10:01.052259",
+      "created_at": "2026-02-12T14:10:01.052259"
+    }
+  },
+  {
+    "id": "c5b4bb85-f333-45f6-892e-43d6031c51b6",
+    "timestamp": "2026-03-05T14:10:02.107834",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "b8382f9e-2f76-4aa3-acc9-d4f7e47cde60",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "b8382f9e-2f76-4aa3-acc9-d4f7e47cde60",
+      "user_id": "buyer-2",
+      "crop": "Pomegranate",
+      "city": "Solapur",
+      "price_per_quintal": 6476.01,
+      "recorded_at": "2026-02-12T14:10:01.052259",
+      "created_at": "2026-02-12T14:10:01.052259"
+    }
+  },
+  {
+    "id": "98d794f5-9db8-4b8e-907c-67ab624c4ac7",
+    "timestamp": "2026-03-05T14:10:02.116197",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "4e032096-0d4c-4a53-b4f6-1b8a262a6583",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "4e032096-0d4c-4a53-b4f6-1b8a262a6583",
+      "user_id": "buyer-2",
+      "crop": "Soybean",
+      "city": "Solapur",
+      "price_per_quintal": 4601.39,
+      "recorded_at": "2026-02-12T14:10:01.052259",
+      "created_at": "2026-02-12T14:10:01.052259"
+    }
+  },
+  {
+    "id": "e82ae3fb-6c4e-4127-ae18-890ea5542dd8",
+    "timestamp": "2026-03-05T14:10:02.125810",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "bcbf2006-5e08-4480-ba6f-ce8dd8f7e5eb",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "bcbf2006-5e08-4480-ba6f-ce8dd8f7e5eb",
+      "user_id": "buyer-3",
+      "crop": "Alphonso Mango",
+      "city": "Amravati",
+      "price_per_quintal": 7821.36,
+      "recorded_at": "2026-02-11T14:10:01.052259",
+      "created_at": "2026-02-11T14:10:01.052259"
+    }
+  },
+  {
+    "id": "c3bc6a33-6021-4747-bb6c-24f4d4f59381",
+    "timestamp": "2026-03-05T14:10:02.134605",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "c7bf2df2-71e4-4b8f-9834-151a7f3c558a",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "c7bf2df2-71e4-4b8f-9834-151a7f3c558a",
+      "user_id": "buyer-3",
+      "crop": "Onion",
+      "city": "Amravati",
+      "price_per_quintal": 1332.31,
+      "recorded_at": "2026-02-11T14:10:01.052259",
+      "created_at": "2026-02-11T14:10:01.052259"
+    }
+  },
+  {
+    "id": "9b9af4a5-12d5-436e-9b67-f80ca15d6a1d",
+    "timestamp": "2026-03-05T14:10:02.143180",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "309d5caa-7a90-4f25-95c1-9f7178557713",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "309d5caa-7a90-4f25-95c1-9f7178557713",
+      "user_id": "buyer-3",
+      "crop": "Wheat",
+      "city": "Amravati",
+      "price_per_quintal": 2087.1,
+      "recorded_at": "2026-02-11T14:10:01.052259",
+      "created_at": "2026-02-11T14:10:01.052259"
+    }
+  },
+  {
+    "id": "1d0905a7-c5fc-4115-b304-256505913a50",
+    "timestamp": "2026-03-05T14:10:02.152033",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "2fac4cd6-bec4-4086-ab85-9066b6a8b679",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "2fac4cd6-bec4-4086-ab85-9066b6a8b679",
+      "user_id": "buyer-3",
+      "crop": "Pomegranate",
+      "city": "Amravati",
+      "price_per_quintal": 7142.09,
+      "recorded_at": "2026-02-11T14:10:01.052259",
+      "created_at": "2026-02-11T14:10:01.052259"
+    }
+  },
+  {
+    "id": "8c7b45e8-e1d6-4a7d-9cc4-4ccd5659a628",
+    "timestamp": "2026-03-05T14:10:02.160976",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "573d4c2c-4f20-4165-a191-cdcb8a6e140c",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "573d4c2c-4f20-4165-a191-cdcb8a6e140c",
+      "user_id": "buyer-3",
+      "crop": "Soybean",
+      "city": "Amravati",
+      "price_per_quintal": 4483.6,
+      "recorded_at": "2026-02-11T14:10:01.052259",
+      "created_at": "2026-02-11T14:10:01.052259"
+    }
+  },
+  {
+    "id": "350e6b74-2328-4828-96f1-4c371c68a901",
+    "timestamp": "2026-03-05T14:10:02.170268",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "62ac0a5f-c4d3-4678-817d-b7a473d13793",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "62ac0a5f-c4d3-4678-817d-b7a473d13793",
+      "user_id": "buyer-4",
+      "crop": "Alphonso Mango",
+      "city": "Latur",
+      "price_per_quintal": 8676.93,
+      "recorded_at": "2026-02-10T14:10:01.052259",
+      "created_at": "2026-02-10T14:10:01.052259"
+    }
+  },
+  {
+    "id": "3c736f9f-6486-4373-89e0-26e8546ad2d4",
+    "timestamp": "2026-03-05T14:10:02.178867",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "e4c5a0d4-24cc-4aac-a254-fb45cd726ec4",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "e4c5a0d4-24cc-4aac-a254-fb45cd726ec4",
+      "user_id": "buyer-4",
+      "crop": "Onion",
+      "city": "Latur",
+      "price_per_quintal": 2007.5,
+      "recorded_at": "2026-02-10T14:10:01.052259",
+      "created_at": "2026-02-10T14:10:01.052259"
+    }
+  },
+  {
+    "id": "624961fe-c8ea-4afb-9f61-f27bedae36ad",
+    "timestamp": "2026-03-05T14:10:02.187474",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "3408f888-d12c-4dee-852b-064ad752f22e",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "3408f888-d12c-4dee-852b-064ad752f22e",
+      "user_id": "buyer-4",
+      "crop": "Wheat",
+      "city": "Latur",
+      "price_per_quintal": 1938.08,
+      "recorded_at": "2026-02-10T14:10:01.052259",
+      "created_at": "2026-02-10T14:10:01.052259"
+    }
+  },
+  {
+    "id": "05313cc9-5689-45d5-befd-976710b92e89",
+    "timestamp": "2026-03-05T14:10:02.196314",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "22cf990c-abca-4d63-b52b-166fba916313",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "22cf990c-abca-4d63-b52b-166fba916313",
+      "user_id": "buyer-4",
+      "crop": "Pomegranate",
+      "city": "Latur",
+      "price_per_quintal": 6193.86,
+      "recorded_at": "2026-02-10T14:10:01.052259",
+      "created_at": "2026-02-10T14:10:01.052259"
+    }
+  },
+  {
+    "id": "74fb7358-3197-41a7-b0b8-b110bb3294a3",
+    "timestamp": "2026-03-05T14:10:02.205268",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "b0ff4edb-80aa-4ab5-ab5f-918debb11ba0",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "b0ff4edb-80aa-4ab5-ab5f-918debb11ba0",
+      "user_id": "buyer-4",
+      "crop": "Soybean",
+      "city": "Latur",
+      "price_per_quintal": 4458.63,
+      "recorded_at": "2026-02-10T14:10:01.052259",
+      "created_at": "2026-02-10T14:10:01.052259"
+    }
+  },
+  {
+    "id": "21dd926a-1baf-4480-be8b-35dd52cbd4e0",
+    "timestamp": "2026-03-05T14:10:02.214855",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "405fb1ed-1b24-4889-9cc8-f6e5ba7be958",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "405fb1ed-1b24-4889-9cc8-f6e5ba7be958",
+      "user_id": "buyer-1",
+      "crop": "Alphonso Mango",
+      "city": "Pune",
+      "price_per_quintal": 8135.37,
+      "recorded_at": "2026-02-09T14:10:01.052259",
+      "created_at": "2026-02-09T14:10:01.052259"
+    }
+  },
+  {
+    "id": "8256090a-3b69-4ab4-829e-8697e134f092",
+    "timestamp": "2026-03-05T14:10:02.224126",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "b5623ea7-229b-4ab4-ac9a-1995ff75faab",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "b5623ea7-229b-4ab4-ac9a-1995ff75faab",
+      "user_id": "buyer-1",
+      "crop": "Onion",
+      "city": "Pune",
+      "price_per_quintal": 1667.02,
+      "recorded_at": "2026-02-09T14:10:01.052259",
+      "created_at": "2026-02-09T14:10:01.052259"
+    }
+  },
+  {
+    "id": "059a150e-78f2-41c7-8079-8ef84f24bdf4",
+    "timestamp": "2026-03-05T14:10:02.233922",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "1dfd49c7-15f5-430c-b343-0f263e0c2128",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "1dfd49c7-15f5-430c-b343-0f263e0c2128",
+      "user_id": "buyer-1",
+      "crop": "Wheat",
+      "city": "Pune",
+      "price_per_quintal": 2045.82,
+      "recorded_at": "2026-02-09T14:10:01.052259",
+      "created_at": "2026-02-09T14:10:01.052259"
+    }
+  },
+  {
+    "id": "d16035e0-0089-4b43-af3e-d5c580347230",
+    "timestamp": "2026-03-05T14:10:02.243002",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "d45743ad-90c0-4c95-b811-20624b68203f",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "d45743ad-90c0-4c95-b811-20624b68203f",
+      "user_id": "buyer-1",
+      "crop": "Pomegranate",
+      "city": "Pune",
+      "price_per_quintal": 7346.73,
+      "recorded_at": "2026-02-09T14:10:01.052259",
+      "created_at": "2026-02-09T14:10:01.052259"
+    }
+  },
+  {
+    "id": "0ecc98bf-2446-459d-894c-5e66a08f361b",
+    "timestamp": "2026-03-05T14:10:02.252910",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "a8ab4829-5f8d-4089-949f-a4914fcfa8ff",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "a8ab4829-5f8d-4089-949f-a4914fcfa8ff",
+      "user_id": "buyer-1",
+      "crop": "Soybean",
+      "city": "Pune",
+      "price_per_quintal": 4790.5,
+      "recorded_at": "2026-02-09T14:10:01.052259",
+      "created_at": "2026-02-09T14:10:01.052259"
+    }
+  },
+  {
+    "id": "0d7066d8-2e6f-42ae-b795-024381bf2710",
+    "timestamp": "2026-03-05T14:10:02.261738",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "fe0869f2-19a2-489f-918f-6bb4e5e74131",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "fe0869f2-19a2-489f-918f-6bb4e5e74131",
+      "user_id": "buyer-2",
+      "crop": "Alphonso Mango",
+      "city": "Nashik",
+      "price_per_quintal": 7647.63,
+      "recorded_at": "2026-02-08T14:10:01.052259",
+      "created_at": "2026-02-08T14:10:01.052259"
+    }
+  },
+  {
+    "id": "010943cb-f7a6-4235-b087-a7a35795a320",
+    "timestamp": "2026-03-05T14:10:02.270886",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "cf01f52a-aca6-4920-8c8b-0eae7a71f27f",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "cf01f52a-aca6-4920-8c8b-0eae7a71f27f",
+      "user_id": "buyer-2",
+      "crop": "Onion",
+      "city": "Nashik",
+      "price_per_quintal": 1602.62,
+      "recorded_at": "2026-02-08T14:10:01.052259",
+      "created_at": "2026-02-08T14:10:01.052259"
+    }
+  },
+  {
+    "id": "c186e1f4-95be-445d-b4af-f33d300a2a47",
+    "timestamp": "2026-03-05T14:10:02.280021",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "3d75e7b6-4017-494f-b5cc-5eb6bf69eed3",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "3d75e7b6-4017-494f-b5cc-5eb6bf69eed3",
+      "user_id": "buyer-2",
+      "crop": "Wheat",
+      "city": "Nashik",
+      "price_per_quintal": 1967.86,
+      "recorded_at": "2026-02-08T14:10:01.052259",
+      "created_at": "2026-02-08T14:10:01.052259"
+    }
+  },
+  {
+    "id": "4351496f-5923-4552-ada3-b12b55a2bd7e",
+    "timestamp": "2026-03-05T14:10:02.289667",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "c5284f0f-1f7b-4b88-bbca-f48a8effb13b",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "c5284f0f-1f7b-4b88-bbca-f48a8effb13b",
+      "user_id": "buyer-2",
+      "crop": "Pomegranate",
+      "city": "Nashik",
+      "price_per_quintal": 7723.35,
+      "recorded_at": "2026-02-08T14:10:01.052259",
+      "created_at": "2026-02-08T14:10:01.052259"
+    }
+  },
+  {
+    "id": "c374bc2b-9626-4d67-bb19-80698f8416d6",
+    "timestamp": "2026-03-05T14:10:02.298838",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "8866bde8-dd82-4119-858d-ba8867f6093a",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "8866bde8-dd82-4119-858d-ba8867f6093a",
+      "user_id": "buyer-2",
+      "crop": "Soybean",
+      "city": "Nashik",
+      "price_per_quintal": 4349.19,
+      "recorded_at": "2026-02-08T14:10:01.052259",
+      "created_at": "2026-02-08T14:10:01.052259"
+    }
+  },
+  {
+    "id": "f4cacc57-478e-4afd-9eaa-f7588f196a8c",
+    "timestamp": "2026-03-05T14:10:02.307688",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "2c561c6a-33d1-487b-9ddb-314222d7d606",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "2c561c6a-33d1-487b-9ddb-314222d7d606",
+      "user_id": "buyer-3",
+      "crop": "Alphonso Mango",
+      "city": "Nagpur",
+      "price_per_quintal": 7785.31,
+      "recorded_at": "2026-02-07T14:10:01.052259",
+      "created_at": "2026-02-07T14:10:01.052259"
+    }
+  },
+  {
+    "id": "a88a29a0-774b-474d-b868-c523416726e8",
+    "timestamp": "2026-03-05T14:10:02.317108",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "8330c1fd-fd10-4ec7-90aa-eacdb0a70c77",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "8330c1fd-fd10-4ec7-90aa-eacdb0a70c77",
+      "user_id": "buyer-3",
+      "crop": "Onion",
+      "city": "Nagpur",
+      "price_per_quintal": 1648.61,
+      "recorded_at": "2026-02-07T14:10:01.052259",
+      "created_at": "2026-02-07T14:10:01.052259"
+    }
+  },
+  {
+    "id": "3012a31f-24a2-480c-9ee6-bae3a90d465c",
+    "timestamp": "2026-03-05T14:10:02.326745",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "fe82c0f1-3d3d-4e93-8fa6-5affc5ab7be7",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "fe82c0f1-3d3d-4e93-8fa6-5affc5ab7be7",
+      "user_id": "buyer-3",
+      "crop": "Wheat",
+      "city": "Nagpur",
+      "price_per_quintal": 1984.38,
+      "recorded_at": "2026-02-07T14:10:01.052259",
+      "created_at": "2026-02-07T14:10:01.052259"
+    }
+  },
+  {
+    "id": "abdaecc3-25a9-4bb6-81f3-40b3581c8531",
+    "timestamp": "2026-03-05T14:10:02.336687",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "e69d16ef-fcff-4af9-8b7b-1ca9246ac145",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "e69d16ef-fcff-4af9-8b7b-1ca9246ac145",
+      "user_id": "buyer-3",
+      "crop": "Pomegranate",
+      "city": "Nagpur",
+      "price_per_quintal": 6557.09,
+      "recorded_at": "2026-02-07T14:10:01.052259",
+      "created_at": "2026-02-07T14:10:01.052259"
+    }
+  },
+  {
+    "id": "d11dc3f0-de28-4dda-9e8b-c32af82b0158",
+    "timestamp": "2026-03-05T14:10:02.345848",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "988bdfcb-4efc-4f19-b03c-7965d6bb9f7a",
+    "user_id": "buyer-3",
+    "old_value": null,
+    "new_value": {
+      "id": "988bdfcb-4efc-4f19-b03c-7965d6bb9f7a",
+      "user_id": "buyer-3",
+      "crop": "Soybean",
+      "city": "Nagpur",
+      "price_per_quintal": 4349.88,
+      "recorded_at": "2026-02-07T14:10:01.052259",
+      "created_at": "2026-02-07T14:10:01.052259"
+    }
+  },
+  {
+    "id": "310d5953-ed7b-48f4-b452-3d2440f05c9f",
+    "timestamp": "2026-03-05T14:10:02.354964",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "6b05e8e7-52a0-4554-9c20-4a2149bda56d",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "6b05e8e7-52a0-4554-9c20-4a2149bda56d",
+      "user_id": "buyer-4",
+      "crop": "Alphonso Mango",
+      "city": "Aurangabad",
+      "price_per_quintal": 8884.9,
+      "recorded_at": "2026-02-06T14:10:01.052259",
+      "created_at": "2026-02-06T14:10:01.052259"
+    }
+  },
+  {
+    "id": "575f0d8e-b8da-40a3-bf8c-9b7f369ef006",
+    "timestamp": "2026-03-05T14:10:02.363947",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "5775781e-f56c-4202-93ce-16b9fd79e595",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "5775781e-f56c-4202-93ce-16b9fd79e595",
+      "user_id": "buyer-4",
+      "crop": "Onion",
+      "city": "Aurangabad",
+      "price_per_quintal": 1643.13,
+      "recorded_at": "2026-02-06T14:10:01.052259",
+      "created_at": "2026-02-06T14:10:01.052259"
+    }
+  },
+  {
+    "id": "24f88820-6d8e-4004-a388-7c27ce7404f5",
+    "timestamp": "2026-03-05T14:10:02.373621",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "b0fc3c55-6a39-43c1-a596-cc32ab7bed24",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "b0fc3c55-6a39-43c1-a596-cc32ab7bed24",
+      "user_id": "buyer-4",
+      "crop": "Wheat",
+      "city": "Aurangabad",
+      "price_per_quintal": 2072.27,
+      "recorded_at": "2026-02-06T14:10:01.052259",
+      "created_at": "2026-02-06T14:10:01.052259"
+    }
+  },
+  {
+    "id": "937b90d7-0475-4ca5-88c2-734d5affcb91",
+    "timestamp": "2026-03-05T14:10:02.382804",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "f865884b-8bbc-4050-8f7a-866472fe27ca",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "f865884b-8bbc-4050-8f7a-866472fe27ca",
+      "user_id": "buyer-4",
+      "crop": "Pomegranate",
+      "city": "Aurangabad",
+      "price_per_quintal": 7100.65,
+      "recorded_at": "2026-02-06T14:10:01.052259",
+      "created_at": "2026-02-06T14:10:01.052259"
+    }
+  },
+  {
+    "id": "12fdd7cd-b445-4ea6-b8f4-af6d9c5333ed",
+    "timestamp": "2026-03-05T14:10:02.391928",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "294236e0-2a00-4709-ba78-ee15fdcc6ec5",
+    "user_id": "buyer-4",
+    "old_value": null,
+    "new_value": {
+      "id": "294236e0-2a00-4709-ba78-ee15fdcc6ec5",
+      "user_id": "buyer-4",
+      "crop": "Soybean",
+      "city": "Aurangabad",
+      "price_per_quintal": 4230.35,
+      "recorded_at": "2026-02-06T14:10:01.052259",
+      "created_at": "2026-02-06T14:10:01.052259"
+    }
+  },
+  {
+    "id": "9e87c291-e76a-4072-90f7-ddf76c89fe62",
+    "timestamp": "2026-03-05T14:10:02.401020",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "e723c2f2-be97-4ff8-9162-c4184d85b6c5",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "e723c2f2-be97-4ff8-9162-c4184d85b6c5",
+      "user_id": "buyer-1",
+      "crop": "Alphonso Mango",
+      "city": "Kolhapur",
+      "price_per_quintal": 8998.92,
+      "recorded_at": "2026-02-05T14:10:01.052259",
+      "created_at": "2026-02-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "8e24aaef-db07-4b9b-9a5d-01897f22b664",
+    "timestamp": "2026-03-05T14:10:02.410108",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "27350cbf-263e-4114-b722-0f9769ce1823",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "27350cbf-263e-4114-b722-0f9769ce1823",
+      "user_id": "buyer-1",
+      "crop": "Onion",
+      "city": "Kolhapur",
+      "price_per_quintal": 2036.03,
+      "recorded_at": "2026-02-05T14:10:01.052259",
+      "created_at": "2026-02-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "fabb00fb-3118-417f-8d71-21a9a3b50989",
+    "timestamp": "2026-03-05T14:10:02.419714",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "2a34964d-6ffe-4ee9-9327-f657cac2478c",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "2a34964d-6ffe-4ee9-9327-f657cac2478c",
+      "user_id": "buyer-1",
+      "crop": "Wheat",
+      "city": "Kolhapur",
+      "price_per_quintal": 2093.8,
+      "recorded_at": "2026-02-05T14:10:01.052259",
+      "created_at": "2026-02-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "2b555e0c-71c2-428b-9daa-e85aa698f7e5",
+    "timestamp": "2026-03-05T14:10:02.429063",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "d12ceed8-875d-4a62-855f-1717708e092d",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "d12ceed8-875d-4a62-855f-1717708e092d",
+      "user_id": "buyer-1",
+      "crop": "Pomegranate",
+      "city": "Kolhapur",
+      "price_per_quintal": 7852.73,
+      "recorded_at": "2026-02-05T14:10:01.052259",
+      "created_at": "2026-02-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "c93b79f2-1c23-4793-bdc9-ba8f4bd6474a",
+    "timestamp": "2026-03-05T14:10:02.438364",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "96528739-78b4-4ad6-8cb7-cf4a08d636ab",
+    "user_id": "buyer-1",
+    "old_value": null,
+    "new_value": {
+      "id": "96528739-78b4-4ad6-8cb7-cf4a08d636ab",
+      "user_id": "buyer-1",
+      "crop": "Soybean",
+      "city": "Kolhapur",
+      "price_per_quintal": 4709.22,
+      "recorded_at": "2026-02-05T14:10:01.052259",
+      "created_at": "2026-02-05T14:10:01.052259"
+    }
+  },
+  {
+    "id": "4bfa6162-06e6-45df-89a5-a509da3f965d",
+    "timestamp": "2026-03-05T14:10:02.448099",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "fc981444-a07c-4218-998e-8075daa2ea1b",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "fc981444-a07c-4218-998e-8075daa2ea1b",
+      "user_id": "buyer-2",
+      "crop": "Alphonso Mango",
+      "city": "Solapur",
+      "price_per_quintal": 7749.47,
+      "recorded_at": "2026-02-04T14:10:01.052259",
+      "created_at": "2026-02-04T14:10:01.052259"
+    }
+  },
+  {
+    "id": "c6a446e9-e35e-403f-89ac-dca8ff66dfd7",
+    "timestamp": "2026-03-05T14:10:02.457882",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "e476bb17-cfc0-4ba3-8dc2-8c6a32ad9466",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "e476bb17-cfc0-4ba3-8dc2-8c6a32ad9466",
+      "user_id": "buyer-2",
+      "crop": "Onion",
+      "city": "Solapur",
+      "price_per_quintal": 1685.64,
+      "recorded_at": "2026-02-04T14:10:01.052259",
+      "created_at": "2026-02-04T14:10:01.052259"
+    }
+  },
+  {
+    "id": "4dc2f51a-80c7-4ba2-99bf-61daacb2f80a",
+    "timestamp": "2026-03-05T14:10:02.467534",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "1ebb702d-3741-4c57-aafe-75a164fa54ed",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "1ebb702d-3741-4c57-aafe-75a164fa54ed",
+      "user_id": "buyer-2",
+      "crop": "Wheat",
+      "city": "Solapur",
+      "price_per_quintal": 1942.75,
+      "recorded_at": "2026-02-04T14:10:01.052259",
+      "created_at": "2026-02-04T14:10:01.052259"
+    }
+  },
+  {
+    "id": "d4cb3d07-ae41-4644-b6d2-64e4e45be703",
+    "timestamp": "2026-03-05T14:10:02.477592",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "073f89ee-16e8-4e84-989f-54a6a9b1fb70",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "073f89ee-16e8-4e84-989f-54a6a9b1fb70",
+      "user_id": "buyer-2",
+      "crop": "Pomegranate",
+      "city": "Solapur",
+      "price_per_quintal": 6802.08,
+      "recorded_at": "2026-02-04T14:10:01.052259",
+      "created_at": "2026-02-04T14:10:01.052259"
+    }
+  },
+  {
+    "id": "bdbf3301-b8a5-4ad1-9aef-7ac5083bb388",
+    "timestamp": "2026-03-05T14:10:02.486860",
+    "action": "MARKET_RATE_REPORTED",
+    "entity_type": "market_rate",
+    "entity_id": "cd8f5d9d-cd4c-4663-8417-e464ec38d731",
+    "user_id": "buyer-2",
+    "old_value": null,
+    "new_value": {
+      "id": "cd8f5d9d-cd4c-4663-8417-e464ec38d731",
+      "user_id": "buyer-2",
+      "crop": "Soybean",
+      "city": "Solapur",
+      "price_per_quintal": 4235.18,
+      "recorded_at": "2026-02-04T14:10:01.052259",
+      "created_at": "2026-02-04T14:10:01.052259"
+    }
+  }
+]

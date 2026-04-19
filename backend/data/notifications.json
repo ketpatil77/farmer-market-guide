@@ -1,0 +1,86 @@
+[
+  {
+    "id": "eae7d800-5022-46c0-9183-9dc7e642193c",
+    "user_id": "farmer-1",
+    "message": "Welcome Farmer 1 - seed data ready",
+    "read": false,
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "fc0c37c6-1dc4-44f9-b4bd-8c87763a7296",
+    "user_id": "farmer-2",
+    "message": "Welcome Farmer 2 - seed data ready",
+    "read": false,
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "0ee317b3-baf9-4993-b2aa-a7aa76aa5f4a",
+    "user_id": "farmer-3",
+    "message": "Welcome Farmer 3 - seed data ready",
+    "read": false,
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "40b55cfd-0bd9-4262-a8db-80facdb66ee3",
+    "user_id": "farmer-4",
+    "message": "Welcome Farmer 4 - seed data ready",
+    "read": false,
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "1cb7ec03-a8c5-4c8d-b96b-faf041844181",
+    "user_id": "farmer-5",
+    "message": "Welcome Farmer 5 - seed data ready",
+    "read": false,
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "b0206177-9050-442f-b4f0-09f3e7502eda",
+    "user_id": "farmer-6",
+    "message": "Welcome Farmer 6 - seed data ready",
+    "read": false,
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "c241abd3-b7e2-4d12-b1c2-033c1c1c9e2b",
+    "user_id": "buyer-1",
+    "message": "Welcome Buyer 1 - seed data ready",
+    "read": false,
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "417ca0be-9379-467b-924f-ffcd344e398f",
+    "user_id": "buyer-2",
+    "message": "Welcome Buyer 2 - seed data ready",
+    "read": false,
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "74fd3983-ee64-4ecd-b66a-6f58921c723c",
+    "user_id": "buyer-3",
+    "message": "Welcome Buyer 3 - seed data ready",
+    "read": false,
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "fb83ded3-ec5b-43e2-9aac-ce2cfd1fd9b1",
+    "user_id": "buyer-4",
+    "message": "Welcome Buyer 4 - seed data ready",
+    "read": false,
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "292bcf0c-e4e2-4e32-913d-45cffd5e7cdf",
+    "user_id": "middleman-1",
+    "message": "Welcome Middleman 1 - seed data ready",
+    "read": false,
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "5ce537ed-435c-4cd0-80d0-07c883386f7a",
+    "user_id": "middleman-2",
+    "message": "Welcome Middleman 2 - seed data ready",
+    "read": false,
+    "created_at": "2026-03-05T14:10:01.052259"
+  }
+]

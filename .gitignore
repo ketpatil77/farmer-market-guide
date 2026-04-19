@@ -1,0 +1,39 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+venv/
+
+# Logs
+logs/
+*.log
+backend/logs/
+
+# Environment / secrets
+local.env.bat
+backend/.env
+.env
+
+# Build / runtime artifacts
+dist/
+build/
+*.sqlite3
+*.db
+
+# Node tooling
+node_modules/
+
+# Misc
+coverage.xml
+htmlcov/
+test-results/
+.github/workflows/ui-quality-gate.yml

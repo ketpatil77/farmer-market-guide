@@ -1,0 +1,122 @@
+[
+  {
+    "id": "809077df-1f8a-43af-a614-7873e9d7460b",
+    "listing_id": "cdd172f3-5885-4ce8-a436-5234696542f7",
+    "buyer_id": "buyer-1",
+    "farmer_id": "farmer-1",
+    "offered_price": 7406.66,
+    "counter_price": null,
+    "accepted_price": null,
+    "status": "pending",
+    "created_at": "2026-03-05T13:10:01.052259",
+    "updated_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "e8caa0da-341c-4a95-9f29-34be04353fd6",
+    "listing_id": "e0e7a08e-f0f9-4a93-b74b-789651d9381d",
+    "buyer_id": "buyer-2",
+    "farmer_id": "farmer-2",
+    "offered_price": 1348.39,
+    "counter_price": null,
+    "accepted_price": 1348.39,
+    "status": "accepted",
+    "created_at": "2026-03-05T12:10:01.052259",
+    "updated_at": "2026-03-05T13:10:01.052259"
+  },
+  {
+    "id": "188a2bc2-0950-432c-a238-adccf29683a9",
+    "listing_id": "f540f59f-1049-4b56-af3d-4fbf18add796",
+    "buyer_id": "buyer-3",
+    "farmer_id": "farmer-3",
+    "offered_price": 1929.75,
+    "counter_price": null,
+    "accepted_price": 1929.75,
+    "status": "accepted",
+    "created_at": "2026-03-05T11:10:01.052259",
+    "updated_at": "2026-03-05T12:10:01.052259"
+  },
+  {
+    "id": "7bd6d05a-3d1d-473e-972b-f90537de7d5e",
+    "listing_id": "5558f8c7-6b88-4d4d-81c5-c8781a106d43",
+    "buyer_id": "buyer-4",
+    "farmer_id": "farmer-4",
+    "offered_price": 6658.47,
+    "counter_price": null,
+    "accepted_price": null,
+    "status": "pending",
+    "created_at": "2026-03-05T10:10:01.052259",
+    "updated_at": "2026-03-05T11:10:01.052259"
+  },
+  {
+    "id": "d5566225-6847-485f-a3db-2f0e8df4ca72",
+    "listing_id": "2e6398f4-d819-4bd8-a344-e900dceb1df6",
+    "buyer_id": "buyer-1",
+    "farmer_id": "farmer-5",
+    "offered_price": 3978.32,
+    "counter_price": null,
+    "accepted_price": 3978.32,
+    "status": "accepted",
+    "created_at": "2026-03-05T09:10:01.052259",
+    "updated_at": "2026-03-05T10:10:01.052259"
+  },
+  {
+    "id": "b9581050-2180-48f4-8787-a36b491eaa15",
+    "listing_id": "e8d41263-eb4e-4a61-8661-bd5f3405e7b9",
+    "buyer_id": "buyer-2",
+    "farmer_id": "farmer-6",
+    "offered_price": 7256.6,
+    "counter_price": null,
+    "accepted_price": null,
+    "status": "rejected",
+    "created_at": "2026-03-05T08:10:01.052259",
+    "updated_at": "2026-03-05T09:10:01.052259"
+  },
+  {
+    "id": "099f675b-a5e3-44e2-87d9-fc12f2d53356",
+    "listing_id": "9fe969fe-c014-49f4-903a-ff58515d577a",
+    "buyer_id": "buyer-3",
+    "farmer_id": "farmer-1",
+    "offered_price": 303.78,
+    "counter_price": 306.82,
+    "accepted_price": null,
+    "status": "countered",
+    "created_at": "2026-03-05T07:10:01.052259",
+    "updated_at": "2026-03-05T08:10:01.052259"
+  },
+  {
+    "id": "72a880fb-13ae-48d5-b955-3e8b95b18c5b",
+    "listing_id": "859cee5a-82e4-49e9-af63-f0a4db10ee51",
+    "buyer_id": "buyer-4",
+    "farmer_id": "farmer-2",
+    "offered_price": 2240.56,
+    "counter_price": null,
+    "accepted_price": 2240.56,
+    "status": "accepted",
+    "created_at": "2026-03-05T06:10:01.052259",
+    "updated_at": "2026-03-05T07:10:01.052259"
+  },
+  {
+    "id": "f8b39ce4-7f51-42a0-a26b-b4048d0af21b",
+    "listing_id": "4167cba2-80d9-43eb-8b14-88280c854829",
+    "buyer_id": "buyer-1",
+    "farmer_id": "farmer-3",
+    "offered_price": 8036.61,
+    "counter_price": null,
+    "accepted_price": 8036.61,
+    "status": "accepted",
+    "created_at": "2026-03-05T05:10:01.052259",
+    "updated_at": "2026-03-05T06:10:01.052259"
+  },
+  {
+    "id": "ed0cfd7e-bda7-4a01-92ed-d871385e9400",
+    "listing_id": "6dcaf727-58f3-47f9-9c34-716870a55018",
+    "buyer_id": "buyer-2",
+    "farmer_id": "farmer-4",
+    "offered_price": 1888.24,
+    "counter_price": null,
+    "accepted_price": null,
+    "status": "pending",
+    "created_at": "2026-03-05T04:10:01.052259",
+    "updated_at": "2026-03-05T05:10:01.052259"
+  }
+]

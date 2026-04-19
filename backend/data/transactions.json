@@ -1,0 +1,77 @@
+[
+  {
+    "id": "91428d48-d07d-440c-a58e-6dc952179ca9",
+    "offer_id": "e8caa0da-341c-4a95-9f29-34be04353fd6",
+    "listing_id": "e0e7a08e-f0f9-4a93-b74b-789651d9381d",
+    "farmer_id": "farmer-2",
+    "buyer_id": "buyer-2",
+    "deal_value": 1348.39,
+    "commission": {
+      "platform_fee": 40.45,
+      "facilitator_fee": 26.97,
+      "farmer_receives": 1280.97,
+      "total_commission": 67.42
+    },
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "12a36171-6000-4f3a-b84d-33bd7da4202f",
+    "offer_id": "188a2bc2-0950-432c-a238-adccf29683a9",
+    "listing_id": "f540f59f-1049-4b56-af3d-4fbf18add796",
+    "farmer_id": "farmer-3",
+    "buyer_id": "buyer-3",
+    "deal_value": 1929.75,
+    "commission": {
+      "platform_fee": 57.89,
+      "facilitator_fee": 38.59,
+      "farmer_receives": 1833.26,
+      "total_commission": 96.49
+    },
+    "created_at": "2026-03-04T14:10:01.052259"
+  },
+  {
+    "id": "d7ffac20-20e6-4dbc-b899-aaed174752dc",
+    "offer_id": "d5566225-6847-485f-a3db-2f0e8df4ca72",
+    "listing_id": "2e6398f4-d819-4bd8-a344-e900dceb1df6",
+    "farmer_id": "farmer-5",
+    "buyer_id": "buyer-1",
+    "deal_value": 3978.32,
+    "commission": {
+      "platform_fee": 119.35,
+      "facilitator_fee": 79.57,
+      "farmer_receives": 3779.4,
+      "total_commission": 198.92
+    },
+    "created_at": "2026-03-03T14:10:01.052259"
+  },
+  {
+    "id": "fef1a8c2-6f7d-4dca-bb4c-3b889f0e3d2c",
+    "offer_id": "72a880fb-13ae-48d5-b955-3e8b95b18c5b",
+    "listing_id": "859cee5a-82e4-49e9-af63-f0a4db10ee51",
+    "farmer_id": "farmer-2",
+    "buyer_id": "buyer-4",
+    "deal_value": 2240.56,
+    "commission": {
+      "platform_fee": 67.22,
+      "facilitator_fee": 44.81,
+      "farmer_receives": 2128.53,
+      "total_commission": 112.03
+    },
+    "created_at": "2026-03-02T14:10:01.052259"
+  },
+  {
+    "id": "a5518f43-2c2a-44cf-9103-95a352dc5d22",
+    "offer_id": "f8b39ce4-7f51-42a0-a26b-b4048d0af21b",
+    "listing_id": "4167cba2-80d9-43eb-8b14-88280c854829",
+    "farmer_id": "farmer-3",
+    "buyer_id": "buyer-1",
+    "deal_value": 8036.61,
+    "commission": {
+      "platform_fee": 241.1,
+      "facilitator_fee": 160.73,
+      "farmer_receives": 7634.78,
+      "total_commission": 401.83
+    },
+    "created_at": "2026-03-01T14:10:01.052259"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "farmer-1",
+    "name": "Farmer 1",
+    "role": "farmer",
+    "city": "Pune",
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "farmer-2",
+    "name": "Farmer 2",
+    "role": "farmer",
+    "city": "Nashik",
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "farmer-3",
+    "name": "Farmer 3",
+    "role": "farmer",
+    "city": "Nagpur",
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "farmer-4",
+    "name": "Farmer 4",
+    "role": "farmer",
+    "city": "Aurangabad",
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "farmer-5",
+    "name": "Farmer 5",
+    "role": "farmer",
+    "city": "Kolhapur",
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "farmer-6",
+    "name": "Farmer 6",
+    "role": "farmer",
+    "city": "Solapur",
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "buyer-1",
+    "name": "Buyer 1",
+    "role": "buyer",
+    "city": "Nagpur",
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "buyer-2",
+    "name": "Buyer 2",
+    "role": "buyer",
+    "city": "Aurangabad",
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "buyer-3",
+    "name": "Buyer 3",
+    "role": "buyer",
+    "city": "Kolhapur",
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "buyer-4",
+    "name": "Buyer 4",
+    "role": "buyer",
+    "city": "Solapur",
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "middleman-1",
+    "name": "Middleman 1",
+    "role": "middleman",
+    "city": "Kolhapur",
+    "created_at": "2026-03-05T14:10:01.052259"
+  },
+  {
+    "id": "middleman-2",
+    "name": "Middleman 2",
+    "role": "middleman",
+    "city": "Solapur",
+    "created_at": "2026-03-05T14:10:01.052259"
+  }
+]

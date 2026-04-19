@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="Farmer Dashboard">Farmer Dashboard</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/farmer-dashboard.css">
+  <script>
+    try {
+      if (!localStorage.getItem('theme')) {
+        localStorage.setItem('theme', 'dark');
+      }
+    } catch (e) { }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="scripts/i18n.js?v=2"></script>
+  <script src="scripts/dataManager.js"></script>
+  <script src="scripts/theme.js"></script>
+  <script src="scripts/uiEnhancements.js?v=20260306d"></script>
+  <script src="scripts/searchUI.js"></script>
+  <script src="scripts/chartHandler.js"></script>
+  <script src="scripts/qaMode.js"></script>
+  <script src="scripts/farmer.js" defer></script>
+</head>
+
+<body class="dashboard-page">
+  <a class="skip-link" href="#mainContent">Skip to content</a>
+  <div class="dashboard-shell">
+    <header class="topbar">
+      <div class="brand" data-i18n="E-Kisan Market">E-Kisan Market</div>
+      <input id="farmerNavToggle" class="topbar-toggle-input" type="checkbox" aria-hidden="true">
+      <label for="farmerNavToggle" class="topbar-toggle" aria-label="Toggle navigation">Menu</label>
+      <nav class="topbar-nav" id="farmerTopbarNav">
+        <a href="#marketOverview" data-i18n="Dashboard">Dashboard</a>
+        <a href="#myListingsSection" data-i18n="Listings">Listings</a>
+        <a href="#buyerOffersSection" data-i18n="Offers">Offers</a>
+        <a href="#salesAnalyticsSection" data-i18n="Analytics">Analytics</a>
+        <a href="#notificationsSection" data-i18n="Notifications">Notifications</a>
+        <a href="#settingsSection" data-i18n="Tools">Tools</a>
+      </nav>
+      <div class="topbar-right">
+        <span class="role-pill" data-i18n="Farmer">Farmer</span>
+        <button class="connection-chip is-fallback" type="button" data-realtime-chip
+          data-i18n="Disconnected">Disconnected</button>
+        <button id="themeToggleBtn" class="btn" type="button">🌙 Dark</button>
+        <button id="densityToggleBtn" class="btn" type="button">Compact</button>
+        <button id="unitToggleBtn" class="btn" type="button">kg</button>
+        <div class="lang-toggle" data-lang-toggle role="group" aria-label="Language toggle"
+          data-i18n-aria="Language toggle">
+          <button class="lang-btn active" data-lang="en" type="button" data-i18n="EN">EN</button>
+          <span class="lang-sep">|</span>
+          <button class="lang-btn" data-lang="mr" type="button" data-i18n="मराठी">मराठी</button>
+        </div>
+        <div class="notif-wrapper" id="farmerNotifWrapper">
+          <button id="notificationsBellBtn" class="btn notif-bell-btn" type="button" aria-haspopup="true"
+            aria-expanded="false" aria-label="Notifications" data-i18n-aria="Notifications">
+            🔔
+            <span id="notificationsBellBadge" class="notif-badge" style="display:none;">0</span>
+          </button>
+          <div id="notificationsBellPanel" class="notif-panel" hidden>
+            <div class="notif-panel-header">
+              <strong data-i18n="Notifications">Notifications</strong>
+              <button id="notificationsBellMarkAllBtn" class="btn" type="button" data-i18n="Mark all as read">Mark all
+                as read</button>
+            </div>
+            <div id="notificationsBellList" class="notif-panel-list"></div>
+            <div class="notif-panel-footer">
+              <a class="topbar-link" href="#notificationsSection" data-i18n="View all notifications">View all
+                notifications</a>
+            </div>
+          </div>
+        </div>
+        <a class="topbar-link" href="index.html" data-i18n="Switch Role">Switch Role</a>
+      </div>
+    </header>
+
+    <div id="farmerToastContainer" class="toast-stack" aria-live="polite" aria-atomic="true"></div>
+
+    <div class="dashboard-layout">
+      <main class="dashboard-content" id="mainContent">
+        <section class="card" id="farmerQuickActions">
+          <div class="section-header">
+            <div>
+              <h2 data-i18n="Quick Actions">Quick Actions</h2>
+              <p class="muted" data-i18n="Jump to your most common tasks.">Jump to your most common tasks.</p>
+            </div>
+          </div>
+          <div class="inline-actions tight center">
+            <button id="quickListProduceBtn" class="btn-primary" type="button" data-task-id="farmer_list_produce"
+              data-i18n="List Produce">+ List Produce</button>
+            <button id="quickViewOffersBtn" class="btn-secondary" type="button" data-task-id="farmer_view_offers"
+              data-i18n="View Offers">View Offers</button>
+            <button id="quickMyListingsBtn" class="btn" type="button" data-task-id="farmer_open_my_listings"
+              data-i18n="My Listings">My
+              Listings</button>
+            <a class="btn btn-icon-inline" href="tel:+911234567890"
+              data-i18n="Call Support">📞 Call Support</a>
+          </div>
+        </section>
+        <section class="card market-overview-panel" id="marketOverview" data-animate-on-load
+          data-demo-step="farmer-insights">
+          <div class="section-header">
+            <div>
+              <h2 data-i18n="Market Overview & Insights">Market Overview & Insights <span class="info-tip"
+                  data-tooltip="Compare your realized prices against live market signals."
+                  data-i18n-tooltip="Compare your realized prices against live market signals.">i</span></h2>
+              <p class="muted" data-i18n="Track your pricing vs market trends in real time.">Track your pricing vs
+                market trends in real time.</p>
+            </div>
+            <div class="overview-controls">
+              <label class="control">
+                <span data-i18n="City">City</span>
+                <select id="farmerMarketCitySelect"></select>
+              </label>
+              <label class="control">
+                <span data-i18n="Crop">Crop</span>
+                <select id="farmerMarketCropSelect"></select>
+              </label>
+              <label class="control">
+                <span data-i18n="Range">Range</span>
+                <select id="farmerMarketRangeSelect">
+                  <option value="7">7d</option>
+                  <option value="30">30d</option>
+                </select>
+              </label>
+              <div class="overview-actions">
+                <button id="viewMarketBtn" class="btn-accent" type="button" data-i18n="View Market">View Market</button>
+                <button id="trackOrdersBtn" class="btn-accent-alt" type="button" data-i18n="Track Orders">Track
+                  Orders</button>
+              </div>
+            </div>
+          </div>
+          <div id="farmerInsightsContainer" class="insight-grid"></div>
+          <div class="smart-insights">
+            <div class="smart-insights-header">
+              <h3 data-i18n="Smart Insights">Smart Insights</h3>
+              <span class="info-tip" data-tooltip="Highlights based on your recent sales and offers."
+                data-i18n-tooltip="Highlights based on your recent sales and offers.">i</span>
+            </div>
+            <div id="farmerSmartInsights" class="smart-insights-grid"></div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-legend">
+              <span class="legend-item"><span class="legend-dot farmer"></span><span data-i18n="Your Avg Sold Rate">Your
+                  Avg Sold Rate</span></span>
+              <span class="legend-item"><span class="legend-dot market"></span><span data-i18n="Market Avg Price">Market
+                  Avg Price</span></span>
+            </div>
+            <div id="farmerTrendMeta" class="chart-meta"></div>
+            <div class="chart-body">
+              <canvas id="farmerTrendChart"></canvas>
+            </div>
+            <div class="chart-note muted" data-i18n="Hover for exact prices and compare trends.">Hover for exact prices
+              and compare trends.</div>
+            <div id="farmerTrendEmpty" class="muted" style="display:none;font-size:12px;margin-top:8px;"
+              data-i18n="Complete sales to view your recent price trajectory.">Complete sales to view your recent price
+              trajectory.</div>
+          </div>
+        </section>
+
+        <section class="card demand-heat-section" id="demandHeatSection" data-animate-on-load>
+          <div class="demand-heat-header">
+            <h3 class="demand-heat-title" data-i18n="Demand Heatmap (Maharashtra)">Demand Heatmap (Maharashtra)</h3>
+            <span class="muted demand-heat-caption" data-i18n="Live demand signals by city">Live demand signals by
+              city</span>
+          </div>
+          <div class="demand-heat-canvas-wrap">
+            <canvas id="demandHeatmapChart"></canvas>
+          </div>
+        </section>
+
+        <section class="card stats-panel" id="keyMetrics" data-animate-on-load>
+          <div class="section-header">
+            <h2 data-i18n="Key Metrics">Key Metrics</h2>
+          </div>
+          <div class="stats-grid">
+            <div class="stat-card stat-total">
+              <div class="stat-label" data-i18n="Total Listings">Total Listings</div>
+              <div id="statTotalListings" class="stat-value">0</div>
+            </div>
+            <div class="stat-card stat-pending">
+              <div class="stat-label" data-i18n="Pending Review">Pending Review</div>
+              <div id="statPending" class="stat-value">0</div>
+            </div>
+            <div class="stat-card stat-approved">
+              <div class="stat-label" data-i18n="Approved">Approved</div>
+              <div id="statApproved" class="stat-value">0</div>
+            </div>
+            <div class="stat-card stat-qty">
+              <div class="stat-label" data-i18n="Total Quantity">Total Quantity</div>
+              <div id="statQuantity" class="stat-value">0 kg</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="action-grid" data-demo-step="farmer-list">
+          <div class="card action-card cta-card">
+            <h3 data-i18n="List New Produce">List New Produce</h3>
+            <p class="muted" data-i18n="Create a fresh listing with crop, quantity, and pricing.">Create a fresh listing
+              with crop, quantity, and pricing.</p>
+            <button id="openListingModalBtn" class="btn-primary" type="button" data-i18n="Add Listing">+ Add
+              Listing</button>
+          </div>
+          <div class="card action-card">
+            <div class="section-header section-header-compact">
+              <h3 data-i18n="Buyer Offers & Negotiation">Buyer Offers & Negotiation</h3>
+              <button id="scrollOffersBtn" class="btn-secondary" type="button" data-i18n="View All">View All</button>
+            </div>
+            <div id="buyerOffersSummary" class="offers-summary"></div>
+          </div>
+        </section>
+
+        <section class="card" id="buyerOffersSection" data-demo-step="farmer-offers">
+          <div class="section-header">
+            <div>
+              <h2 data-i18n="Buyer Offers & Negotiation">Buyer Offers & Negotiation</h2>
+              <p class="muted" data-i18n="Review or negotiate offers in real time.">Review or negotiate offers in real
+                time.</p>
+            </div>
+            <button id="toggleOffersBtn" class="btn-secondary" type="button" data-i18n="View All">View All</button>
+          </div>
+          <div id="buyerOffersList" class="offer-grid"></div>
+        </section>
+
+        <section class="card" id="myListingsSection" data-demo-step="farmer-active">
+          <div class="section-header">
+            <div>
+              <h2 data-i18n="My Listings">My Listings</h2>
+              <p class="muted" data-i18n="Active listings with quick edit and offer actions.">Active listings with quick
+                edit and offer actions.</p>
+            </div>
+            <button id="newListingShortcut" class="btn-secondary" type="button" data-i18n="New Listing">New
+              Listing</button>
+          </div>
+          <div id="myListings"></div>
+        </section>
+
+        <section class="card" id="notificationsSection">
+          <div class="section-header">
+            <h2 data-i18n="Notifications">Notifications</h2>
+          </div>
+          <div id="notificationsList" class="scroll-panel"></div>
+          <div class="section-footer">
+            <a class="topbar-link" href="#notificationsSection" data-i18n="See more">See more</a>
+          </div>
+        </section>
+
+        <section class="card section-completed" id="salesAnalyticsSection" data-demo-step="farmer-sold">
+          <h2><span data-i18n="Sales Analytics">Sales Analytics</span> <span class="info-tip"
+              data-tooltip="Commission = total amount × commission rate. Payout = total − commission."
+              data-i18n-tooltip="Commission = total amount × commission rate. Payout = total − commission.">i</span>
+          </h2>
+          <div id="soldDealsContainer"></div>
+        </section>
+
+        <section class="card farmer-tools-section" id="settingsSection">
+          <h2 data-i18n="Data Tools">Data Tools</h2>
+          <p class="muted" data-i18n="These tools affect all 3 dashboards (Farmer, Buyer, Middleman).">
+            These tools affect all 3 dashboards (Farmer, Buyer, Middleman).
+          </p>
+          <div class="farmer-tools-actions">
+            <button class="btn-primary" id="demoSeedBtnFarmer" type="button" data-i18n="Seed demo data">Seed demo
+              data</button>
+            <button id="resetAppDataBtn" class="btn-danger" type="button" data-i18n="Reset All Data"
+              title="Reset All Data">Reset All Data</button>
+          </div>
+          <div id="demoStatusFarmer" class="muted farmer-tools-status"></div>
+          <p class="muted farmer-tools-status" data-feature-flag="UI_DEV_MODE"
+            data-i18n="Developer mode keeps QA diagnostics available in Farmer dashboard.">
+            Developer mode keeps QA diagnostics available in Farmer dashboard.
+          </p>
+        </section>
+
+      </main>
+    </div>
+  </div>
+
+  <div id="listingModal" class="modal" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="listingModalTitle">
+      <div class="modal-header">
+        <div>
+          <div id="listingModalTitle" class="modal-title" data-i18n="List New Produce">List New Produce</div>
+          <div id="listingModalMeta" class="modal-meta"></div>
+        </div>
+        <button id="listingModalClose" class="modal-close" type="button" data-i18n="Close">Close</button>
+      </div>
+      <section class="card no-margin">
+        <div class="form-grid">
+          <div id="farmerCitySearch"></div>
+          <div id="farmerCropSearch"></div>
+          <label><span data-i18n="Quantity">Quantity</span><input id="productQuantity" type="number" min="1"
+              placeholder="100" data-i18n-placeholder="Quantity" /></label>
+          <label><span data-i18n="Expected Price (₹)">Expected Price (₹)</span><input id="productPrice" type="number"
+              min="0" placeholder="5000" data-i18n-placeholder="Expected Price (₹)" /></label>
+          <div id="aiPriceRecommendation"></div>
+          <label><span data-i18n="Quality">Quality</span><select id="productQuality">
+              <option value="Excellent" data-i18n="Excellent">Excellent</option>
+              <option value="Good" data-i18n="Good">Good</option>
+              <option value="Average" data-i18n="Average">Average</option>
+            </select></label>
+        </div>
+        <div id="listingFormError" class="form-error" role="alert" aria-live="polite"></div>
+        <label><span data-i18n="Description">Description</span><textarea id="productDescription" rows="2"
+            placeholder="Add details..." data-i18n-placeholder="Add details..."></textarea></label>
+        <div class="image-upload" id="productImageUpload">
+          <div style="font-weight:600;margin-bottom:4px;" data-i18n="Add Product Image (optional)">Add Product Image
+            (optional)</div>
+          <div class="muted" style="font-size:12px;margin-bottom:8px;" data-i18n="Use camera or upload from device">Use
+            camera or upload from device</div>
+          <div class="image-upload-actions">
+            <label class="btn-secondary" style="cursor:pointer;">
+              📷 <span data-i18n="Camera">Camera</span>
+              <input id="productImageCamera" type="file" accept="image/*" capture="environment" style="display:none;" />
+            </label>
+            <label class="btn-secondary" style="cursor:pointer;">
+              🖼️ <span data-i18n="Upload Image">Upload Image</span>
+              <input id="productImageFile" type="file" accept="image/*" style="display:none;" />
+            </label>
+            <button id="clearProductImageBtn" class="btn" type="button" data-i18n="Remove Image">Remove Image</button>
+          </div>
+          <div id="productImageError" class="muted"
+            style="display:none;color:var(--danger);margin-top:8px;font-size:12px;"></div>
+          <div id="productImagePreview" class="image-preview" style="display:none;">
+            <img id="productImagePreviewImg" alt="Product preview" loading="lazy" />
+          </div>
+        </div>
+        <div class="inline-actions">
+          <button id="listProductBtn" class="btn-primary" type="button" data-i18n="Submit Listing">Submit
+            Listing</button>
+          <button id="cancelEditBtn" class="btn-secondary" type="button" data-i18n="Cancel">Cancel</button>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    function initResetButton() {
+      const btn = document.getElementById('resetAppDataBtn');
+      if (!btn) return;
+      btn.addEventListener('click', async () => {
+        if (typeof farmaConfirm !== 'function') return;
+        const ok = await farmaConfirm(t('⚠️ RESET ALL APP DATA?\n\nThis will:\n✓ Clear all listings\n✓ Clear all offers\n✓ Clear all transactions\n✓ Reset to fresh state\n\nContinue?'));
+        if (ok) {
+          resetAppDataForUser();
+          if (typeof farmaAlert === 'function') {
+            await farmaAlert(t('App data reset. Reloading...'));
+          }
+          location.reload();
+        }
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initResetButton();
+    });
+  </script>
+</body>
+
+</html>

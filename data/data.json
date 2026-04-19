@@ -1,0 +1,534 @@
+{
+  "cities": [
+    {
+      "name": "Pune",
+      "weather": "Rainy",
+      "crops": [
+        {
+          "name": "Tomato",
+          "price": 32,
+          "condition": "Good",
+          "image": "images/tomato.jpg",
+          "farmersSelling": 3,
+          "category": "Vegetable"
+        },
+        {
+          "name": "Onion",
+          "price": 40,
+          "condition": "Average",
+          "image": "images/onion.jpg",
+          "farmersSelling": 1,
+          "category": "Vegetable"
+        },
+        {
+          "name": "Spinach",
+          "price": 15,
+          "condition": "Excellent",
+          "image": "images/spinach.jpg",
+          "farmersSelling": 2,
+          "category": "Vegetable"
+        },
+        {
+          "name": "Carrot",
+          "price": 18,
+          "condition": "Good",
+          "image": "images/carrot.jpg",
+          "farmersSelling": 2,
+          "category": "Vegetable"
+        }
+      ]
+    },
+    {
+      "name": "Nashik",
+      "weather": "Sunny",
+      "crops": [
+        {
+          "name": "Grapes",
+          "price": 90,
+          "condition": "Excellent",
+          "image": "images/grapes.jpg",
+          "farmersSelling": 5,
+          "category": "Fruit"
+        },
+        {
+          "name": "Apple",
+          "price": 120,
+          "condition": "Excellent",
+          "image": "images/apple.jpg",
+          "farmersSelling": 3,
+          "category": "Fruit"
+        },
+        {
+          "name": "Orange",
+          "price": 45,
+          "condition": "Good",
+          "image": "images/orange.jpg",
+          "farmersSelling": 2,
+          "category": "Fruit"
+        },
+        {
+          "name": "Sugarcane",
+          "price": 18,
+          "condition": "Good",
+          "image": "images/sugarcane.jpg",
+          "farmersSelling": 2,
+          "category": "Crop"
+        }
+      ]
+    },
+    {
+      "name": "Aurangabad",
+      "weather": "Partially Cloudy",
+      "crops": [
+        {
+          "name": "Potato",
+          "price": 25,
+          "condition": "Good",
+          "image": "images/potato.jpg",
+          "farmersSelling": 4,
+          "category": "Vegetable"
+        },
+        {
+          "name": "Cabbage",
+          "price": 20,
+          "condition": "Good",
+          "image": "images/cabbage.jpg",
+          "farmersSelling": 2,
+          "category": "Vegetable"
+        },
+        {
+          "name": "Cauliflower",
+          "price": 30,
+          "condition": "Excellent",
+          "image": "images/cauliflower.jpg",
+          "farmersSelling": 3,
+          "category": "Vegetable"
+        },
+        {
+          "name": "Banana",
+          "price": 35,
+          "condition": "Good",
+          "image": "images/banana.jpg",
+          "farmersSelling": 3,
+          "category": "Fruit"
+        },
+        {
+          "name": "Mango",
+          "price": 60,
+          "condition": "Excellent",
+          "image": "images/mango.jpg",
+          "farmersSelling": 4,
+          "category": "Fruit"
+        }
+      ]
+    },
+    {
+      "name": "Nagpur",
+      "weather": "Sunny",
+      "crops": [
+        {
+          "name": "Wheat",
+          "price": 22,
+          "condition": "Good",
+          "image": "images/wheat.jpg",
+          "farmersSelling": 5,
+          "category": "Crop"
+        },
+        {
+          "name": "Rice",
+          "price": 38,
+          "condition": "Good",
+          "image": "images/rice.jpg",
+          "farmersSelling": 4,
+          "category": "Crop"
+        },
+        {
+          "name": "Broccoli",
+          "price": 45,
+          "condition": "Excellent",
+          "image": "images/broccoli.jpg",
+          "farmersSelling": 2,
+          "category": "Vegetable"
+        },
+        {
+          "name": "Papaya",
+          "price": 25,
+          "condition": "Good",
+          "image": "images/papaya.jpg",
+          "farmersSelling": 2,
+          "category": "Fruit"
+        }
+      ]
+    },
+    {
+      "name": "Kolhapur",
+      "weather": "Rainy",
+      "crops": [
+        {
+          "name": "Bell Pepper",
+          "price": 50,
+          "condition": "Excellent",
+          "image": "images/bell_pepper.jpg",
+          "farmersSelling": 2,
+          "category": "Vegetable"
+        },
+        {
+          "name": "Cucumber",
+          "price": 12,
+          "condition": "Good",
+          "image": "images/cucumber.jpg",
+          "farmersSelling": 3,
+          "category": "Vegetable"
+        },
+        {
+          "name": "Pumpkin",
+          "price": 28,
+          "condition": "Good",
+          "image": "images/pumpkin.jpg",
+          "farmersSelling": 2,
+          "category": "Vegetable"
+        },
+        {
+          "name": "Strawberry",
+          "price": 180,
+          "condition": "Excellent",
+          "image": "images/strawberry.jpg",
+          "farmersSelling": 2,
+          "category": "Fruit"
+        },
+        {
+          "name": "Guava",
+          "price": 40,
+          "condition": "Good",
+          "image": "images/guava.jpg",
+          "farmersSelling": 3,
+          "category": "Fruit"
+        }
+      ]
+    }
+  ],
+  "farmerListings": [
+    {
+      "id": 1000,
+      "city": "Pune",
+      "name": "Premium Tomato",
+      "category": "Vegetable",
+      "quantity": 500,
+      "price": 32,
+      "quality": "Excellent",
+      "description": "Fresh, organic tomatoes harvested this morning. Perfect for market and restaurants.",
+      "image": "tomato.jpg",
+      "video": null,
+      "listingDate": "11/13/2025",
+      "sold": 50,
+      "views": 145,
+      "interest": 12
+    },
+    {
+      "id": 1001,
+      "city": "Nashik",
+      "name": "Seedless Grapes",
+      "category": "Fruit",
+      "quantity": 300,
+      "price": 90,
+      "quality": "Excellent",
+      "description": "Sweet and juicy seedless grapes, ideal for fresh consumption and export quality.",
+      "image": "grapes.jpg",
+      "video": "grapes_demo.mp4",
+      "listingDate": "11/13/2025",
+      "sold": 150,
+      "views": 289,
+      "interest": 28
+    },
+    {
+      "id": 1002,
+      "city": "Pune",
+      "name": "Organic Onion Lot",
+      "category": "Vegetable",
+      "quantity": 600,
+      "price": 40,
+      "quality": "Good",
+      "description": "Clean, well-sorted red onions from local farms.",
+      "image": "onion.jpg",
+      "video": null,
+      "listingDate": "11/13/2025",
+      "sold": 80,
+      "views": 90,
+      "interest": 10
+    },
+    {
+      "id": 1003,
+      "city": "Aurangabad",
+      "name": "Fresh Potatoes",
+      "category": "Vegetable",
+      "quantity": 800,
+      "price": 25,
+      "quality": "Good",
+      "description": "High-yield potatoes suitable for retail and processing.",
+      "image": "potato.jpg",
+      "video": null,
+      "listingDate": "11/13/2025",
+      "sold": 200,
+      "views": 120,
+      "interest": 18
+    },
+    {
+      "id": 1004,
+      "city": "Aurangabad",
+      "name": "Kesar Mangoes (Grade A)",
+      "category": "Fruit",
+      "quantity": 250,
+      "price": 85,
+      "quality": "Excellent",
+      "description": "Sweet Kesar mangoes, hand-picked and ripeness-controlled.",
+      "image": "mango.jpg",
+      "video": null,
+      "listingDate": "11/13/2025",
+      "sold": 60,
+      "views": 210,
+      "interest": 25
+    },
+    {
+      "id": 1005,
+      "city": "Nagpur",
+      "name": "Wheat Bulk",
+      "category": "Crop",
+      "quantity": 1200,
+      "price": 22,
+      "quality": "Good",
+      "description": "Clean wheat, moisture-tested and ready for delivery.",
+      "image": "wheat.jpg",
+      "video": null,
+      "listingDate": "11/13/2025",
+      "sold": 400,
+      "views": 75,
+      "interest": 14
+    },
+    {
+      "id": 1006,
+      "city": "Kolhapur",
+      "name": "Strawberry Pack",
+      "category": "Fruit",
+      "quantity": 120,
+      "price": 180,
+      "quality": "Excellent",
+      "description": "Fresh strawberries, chilled and packed for retail.",
+      "image": "strawberry.jpg",
+      "video": null,
+      "listingDate": "11/13/2025",
+      "sold": 30,
+      "views": 95,
+      "interest": 8
+    },
+    {
+      "id": 1007,
+      "city": "Pune",
+      "name": "Green Cabbage",
+      "category": "Vegetable",
+      "quantity": 350,
+      "price": 20,
+      "quality": "Average",
+      "description": "Good quality cabbage suitable for wholesale.",
+      "image": "cabbage.jpg",
+      "video": null,
+      "listingDate": "11/13/2025",
+      "sold": 40,
+      "views": 40,
+      "interest": 5
+    },
+    {
+      "id": 1008,
+      "city": "Kolhapur",
+      "name": "Fresh Bell Peppers (Mixed)",
+      "category": "Vegetable",
+      "quantity": 280,
+      "price": 50,
+      "quality": "Excellent",
+      "description": "Vibrant red, yellow and green bell peppers, picked at peak ripeness.",
+      "image": "bell_pepper.jpg",
+      "video": "bell_pepper_demo.mp4",
+      "listingDate": "11/13/2025",
+      "sold": 75,
+      "views": 145,
+      "interest": 16
+    },
+    {
+      "id": 1009,
+      "city": "Nashik",
+      "name": "Premium Apples (Kashmir)",
+      "category": "Fruit",
+      "quantity": 400,
+      "price": 120,
+      "quality": "Excellent",
+      "description": "Crisp, sweet Kashmir apples imported from premium orchards.",
+      "image": "apple_premium.jpg",
+      "video": "apple_picking.mp4",
+      "listingDate": "11/13/2025",
+      "sold": 200,
+      "views": 320,
+      "interest": 35
+    },
+    {
+      "id": 1010,
+      "city": "Aurangabad",
+      "name": "Fresh Spinach Bundle",
+      "category": "Vegetable",
+      "quantity": 150,
+      "price": 15,
+      "quality": "Excellent",
+      "description": "Organic pesticide-free spinach, harvested fresh daily.",
+      "image": "spinach.jpg",
+      "video": "spinach_harvest.mp4",
+      "listingDate": "11/13/2025",
+      "sold": 60,
+      "views": 85,
+      "interest": 12
+    },
+    {
+      "id": 1011,
+      "city": "Nagpur",
+      "name": "Rice (Basmati Grade)",
+      "category": "Crop",
+      "quantity": 2000,
+      "price": 38,
+      "quality": "Good",
+      "description": "Premium basmati rice, long grains, aromatic quality.",
+      "image": "rice_basmati.jpg",
+      "video": null,
+      "listingDate": "11/13/2025",
+      "sold": 800,
+      "views": 180,
+      "interest": 28
+    },
+    {
+      "id": 1012,
+      "city": "Kolhapur",
+      "name": "Fresh Carrots Bundle",
+      "category": "Vegetable",
+      "quantity": 400,
+      "price": 18,
+      "quality": "Good",
+      "description": "Orange, sweet carrots, washed and bundled for retail.",
+      "image": "carrot.jpg",
+      "video": "carrot_sorting.mp4",
+      "listingDate": "11/13/2025",
+      "sold": 120,
+      "views": 100,
+      "interest": 14
+    },
+    {
+      "id": 1013,
+      "city": "Pune",
+      "name": "Broccoli Florets",
+      "category": "Vegetable",
+      "quantity": 180,
+      "price": 45,
+      "quality": "Excellent",
+      "description": "Fresh green broccoli, perfect for cooking and salads.",
+      "image": "broccoli.jpg",
+      "video": "broccoli_farm.mp4",
+      "listingDate": "11/13/2025",
+      "sold": 50,
+      "views": 75,
+      "interest": 9
+    },
+    {
+      "id": 1014,
+      "city": "Aurangabad",
+      "name": "Banana Bunch (Cavendish)",
+      "category": "Fruit",
+      "quantity": 500,
+      "price": 35,
+      "quality": "Good",
+      "description": "Golden yellow Cavendish bananas, fresh and sweet.",
+      "image": "banana.jpg",
+      "video": "banana_harvest.mp4",
+      "listingDate": "11/13/2025",
+      "sold": 280,
+      "views": 210,
+      "interest": 24
+    },
+    {
+      "id": 1015,
+      "city": "Nashik",
+      "name": "Sweet Orange Juice Box",
+      "category": "Fruit",
+      "quantity": 600,
+      "price": 45,
+      "quality": "Good",
+      "description": "Juicy sweet oranges, ideal for fresh juice extraction.",
+      "image": "orange.jpg",
+      "video": "orange_juicing.mp4",
+      "listingDate": "11/13/2025",
+      "sold": 180,
+      "views": 140,
+      "interest": 18
+    },
+    {
+      "id": 1016,
+      "city": "Nagpur",
+      "name": "Papaya (Medium Size)",
+      "category": "Fruit",
+      "quantity": 200,
+      "price": 25,
+      "quality": "Good",
+      "description": "Sweet, soft papayas ready to eat, rich in vitamins.",
+      "image": "papaya.jpg",
+      "video": "papaya_ripening.mp4",
+      "listingDate": "11/13/2025",
+      "sold": 80,
+      "views": 95,
+      "interest": 11
+    },
+    {
+      "id": 1017,
+      "city": "Kolhapur",
+      "name": "Guava Fresh Lot",
+      "category": "Fruit",
+      "quantity": 350,
+      "price": 40,
+      "quality": "Good",
+      "description": "White-fleshed guavas, crisp and full of juice.",
+      "image": "guava.jpg",
+      "video": "guava_picking.mp4",
+      "listingDate": "11/13/2025",
+      "sold": 110,
+      "views": 120,
+      "interest": 15
+    },
+    {
+      "id": 1018,
+      "city": "Pune",
+      "name": "Cucumber Batch",
+      "category": "Vegetable",
+      "quantity": 250,
+      "price": 12,
+      "quality": "Average",
+      "description": "Green, crispy cucumbers perfect for salads and pickling.",
+      "image": "cucumber.jpg",
+      "video": null,
+      "listingDate": "11/13/2025",
+      "sold": 90,
+      "views": 110,
+      "interest": 8
+    },
+    {
+      "id": 1019,
+      "city": "Aurangabad",
+      "name": "Cauliflower Premium",
+      "category": "Vegetable",
+      "quantity": 220,
+      "price": 30,
+      "quality": "Excellent",
+      "description": "Pure white cauliflower heads, dense and fresh.",
+      "image": "cauliflower.jpg",
+      "video": "cauliflower_farming.mp4",
+      "listingDate": "11/13/2025",
+      "sold": 65,
+      "views": 88,
+      "interest": 10
+    }
+  ],
+  "wishlist": [],
+  "orders": []
+}
