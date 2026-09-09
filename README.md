@@ -1,5 +1,6 @@
 
-#Project Right owned by @janvigirase30
+#Project Right owned by @janvigirase30 
+https://github.com/janvigirase30
 
 # Farmer Market Guide
 
