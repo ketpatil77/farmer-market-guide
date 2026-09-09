@@ -1,3 +1,6 @@
+
+#Project Right owned by @janvigirase30
+
 # Farmer Market Guide
 
 Farmer Market Guide is a multi-role agricultural marketplace prototype built for rural and semi-urban trading workflows in Maharashtra, India. It combines three browser dashboards for farmers, buyers, and middlemen with a FastAPI backend for listings, offers, transactions, analytics, audit logging, and realtime market updates.
