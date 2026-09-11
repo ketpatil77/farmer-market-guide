@@ -1,18 +1,19 @@
-
-#Project Right owned by @janvigirase30 
-https://github.com/janvigirase30
-
 # Farmer Market Guide
 
-Farmer Market Guide is a multi-role agricultural marketplace prototype built for rural and semi-urban trading workflows in Maharashtra, India. It combines three browser dashboards for farmers, buyers, and middlemen with a FastAPI backend for listings, offers, transactions, analytics, audit logging, and realtime market updates.
+Farmer Market Guide is a multi-role agricultural marketplace prototype for rural and semi-urban trading workflows in Maharashtra, India. It provides dedicated browser experiences for farmers, buyers, and middlemen, backed by a FastAPI service for marketplace operations and reporting.
+
+## Project Ownership
+
+This repository was originally created in collaboration with [Janvi Girase](https://github.com/janvigirase30). The current GitHub fork is maintained under `ketpatil77/farmer-market-guide`.
 
 ## Highlights
 
-- Multi-role experience across dedicated Farmer, Buyer, and Middleman dashboards
-- Real-time market signals and Server-Sent Events support
-- Dual-language interface support with English and Marathi toggles
-- Backend API for users, listings, offers, transactions, analytics, audit, and health checks
-- Seeded demo data for local evaluation and presentation use
+- Farmer, buyer, and middleman dashboards
+- Listings, offers, and transaction workflows
+- Market analytics and audit logging
+- Server-Sent Events support for realtime updates
+- English and Marathi interface support
+- Seeded demo data for local evaluation and presentations
 - Automated backend tests for core marketplace flows
 
 ## Project Structure
@@ -20,13 +21,13 @@ Farmer Market Guide is a multi-role agricultural marketplace prototype built for
 ```text
 .
 ├── index.html                     # Role selector / landing screen
-├── buyer-dashboard.html           # Buyer experience
-├── farmer-dashboard.html          # Farmer experience
-├── middleman-dashboard.html       # Middleman experience
-├── scripts/                       # Frontend logic, static server, realtime server
+├── buyer-dashboard.html           # Buyer dashboard
+├── farmer-dashboard.html          # Farmer dashboard
+├── middleman-dashboard.html       # Middleman dashboard
+├── scripts/                       # Frontend, static-server, and realtime scripts
 ├── styles/                        # Shared and dashboard-specific styles
 ├── data/                          # Frontend demo data
-├── backend/                       # FastAPI service, tests, Docker assets
+├── backend/                       # FastAPI service, tests, and Docker assets
 └── start_server_and_dashboards.bat
 ```
 
@@ -34,38 +35,33 @@ Farmer Market Guide is a multi-role agricultural marketplace prototype built for
 
 ### Frontend demo
 
-1. Install Python 3.12+.
-2. Copy `local.env.example.bat` to `local.env.bat` and add keys only if you need live commodity pricing.
+1. Install Python 3.12 or newer.
+2. Copy `local.env.example.bat` to `local.env.bat` if live commodity-pricing integrations are required.
 3. Run `start_server_and_dashboards.bat`.
-4. Open:
-   - `http://localhost:8000/`
-   - `http://localhost:8000/farmer-dashboard.html`
-   - `http://localhost:8000/buyer-dashboard.html`
-   - `http://localhost:8000/middleman-dashboard.html`
+4. Open the landing page at <http://localhost:8000/>.
+
+The role-specific dashboards are available at:
+
+- <http://localhost:8000/farmer-dashboard.html>
+- <http://localhost:8000/buyer-dashboard.html>
+- <http://localhost:8000/middleman-dashboard.html>
 
 ### Backend API
 
-1. Go to `backend/`.
-2. Copy `.env.example` to `.env`.
-3. Install dependencies:
+From `backend/`:
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-```
-
-4. Start the API:
-
-```bash
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8080
 ```
 
-5. Open `http://localhost:8080/docs`.
+API documentation is then available at <http://localhost:8080/docs>.
 
 ## Testing
 
-Run backend tests from `backend/`:
+Run backend tests from the `backend/` directory:
 
 ```bash
 pytest -q
@@ -73,16 +69,18 @@ pytest -q
 
 ## Configuration
 
-- `local.env.bat` is for the Windows demo launcher and should stay local.
-- `backend/.env` is for API runtime configuration and should stay local.
-- Safe templates are included as `local.env.example.bat` and `backend/.env.example`.
+Keep environment files local and never commit credentials.
+
+- `local.env.bat` is used by the Windows demo launcher.
+- `backend/.env` contains backend runtime configuration.
+- `local.env.example.bat` and `backend/.env.example` are safe templates.
 
 ## Tech Stack
 
-- Frontend: HTML, CSS, JavaScript, Chart.js, Anime.js
-- Backend: FastAPI, Pydantic, Uvicorn, Pytest
-- Realtime: Python SSE server
-- Packaging: Docker and `docker compose` assets under `backend/`
+- **Frontend:** HTML, CSS, JavaScript, Chart.js, Anime.js
+- **Backend:** FastAPI, Pydantic, Uvicorn, Pytest
+- **Realtime:** Server-Sent Events (SSE)
+- **Packaging:** Docker and Docker Compose assets under `backend/`
 
 ## License
 
